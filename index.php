@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- Datatable CSS -->
+    <link rel="stylesheet" href="assets/css/jquery.dataTables.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -78,6 +80,53 @@
                         </div><!--//quote-->                        
                     </div><!--//content-->
                     <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
+                        <table id="upcoming_batches" class="display" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Sr. No.</th> 
+                                    <th>Course Name </th> 
+                                    <th> Course Type </th> 
+                                    <th>Start Date </th> 
+                                    <th> Timing </th> 
+                                    <th>Intakes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> 1.</td> 
+                                    <td> PHP & Mysql</td> 
+                                    <td> Weekend </td> 
+                                    <td>07-03-2015 </td> 
+                                    <td> 9 a.m.-1 p.m.</td> 
+                                    <td> Max 30</td>
+                                </tr>
+                                <tr>
+                                    <td> 2.</td> 
+                                    <td> Web Development </td> 
+                                    <td> Regular</td> 
+                                    <td> 01-03-2015 </td> 
+                                    <td> 5 p.m. - 7 p.m </td>
+                                     <td> Max 30</td>
+                                </tr>
+                                <tr>
+                                    <td> 3.</td> 
+                                    <td> Career Counselling </td> 
+                                    <td> Weekend </td> 
+                                    <td> 07-03-2015 </td> 
+                                    <td> 1 p.m - 3 p.m </td> 
+                                    <td>Max 30</td>
+                                </tr>
+                                <tr>
+                                    <td> 4.</td> 
+                                    <td> Web Development </td> 
+                                    <td> Regular </td> 
+                                    <td> 15-03-2015 </td> 
+                                    <td> 5 p.m. - 7 p.m </td> 
+                                    <td> Max 30 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                         <img class="img-responsive" src="assets/images/figures/figure-1.png" alt="" />
                         <figcaption class="figure-caption">(Screenshot: Coral - App &amp; website startup kit) </figcaption>
                     </figure>
@@ -254,104 +303,7 @@
     </div><!--//section-wrapper-->
     
     <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="container">
-                <div class="row">                    
-                    <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
-                        <div class="footer-col-inner">
-                            <h3 class="title">About us</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Who we are</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Press</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Blog</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Jobs</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Contact us</a></li>
-                            </ul>
-                        </div><!--//footer-col-inner-->
-                    </div><!--//foooter-col-->    
-                    <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
-                        <div class="footer-col-inner">
-                            <h3 class="title">Product</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="#"><i class="fa fa-caret-right"></i>How it works</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>API</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Download Apps</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Pricing</a></li>
-                            </ul>
-                        </div><!--//footer-col-inner-->
-                    </div><!--//foooter-col-->              
-                    <div class="footer-col links col-md-2 col-sm-4 col-xs-12 sm-break">
-                        <div class="footer-col-inner">
-                            <h3 class="title">Support</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Help</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Documentation</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Terms of services</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Privacy</a></li>
-                            </ul>
-                        </div><!--//footer-col-inner-->            
-                    </div><!--//foooter-col-->   
-                    <div class="footer-col connect col-md-6 col-sm-12 col-xs-12">
-                        <div class="footer-col-inner">
-                            <ul class="social list-inline">
-                                <li><a href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>        
-                                <li class="row-end"><a href="#"><i class="fa fa-rss"></i></a></li>             
-                            </ul>
-                            <div class="form-container">
-                                <p class="intro">Stay up to date with the latest news and offers from Velocity</p>
-                                <form class="signup-form navbar-form">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Enter your email address">
-                                    </div>   
-                                    <button type="submit" class="btn btn-cta btn-cta-primary">Subscribe Now</button>                                 
-                                </form>                               
-                            </div><!--//subscription-form-->
-                        </div><!--//footer-col-inner-->
-                    </div><!--//foooter-col-->
-                    <div class="clearfix"></div> 
-                </div><!--//row-->
-                <div class="row has-divider">
-                    <div class="footer-col download col-md-6 col-sm-12 col-xs-12">
-                        <div class="footer-col-inner">
-                            <h3 class="title">Mobile apps</h3>
-                            <ul class="list-unstyled download-list">
-                                <li><a class="btn btn-ghost" href="#"><i class="fa fa-apple"></i><span class="text">Download for iOS</span> </a></li>
-                                <li><a class="btn btn-ghost" href="#"><i class="fa fa-android"></i><span class="text">Download for Android</span></a></li>
-                                <li><a class="btn btn-ghost" href="#"><i class="fa fa-windows"></i><span class="text">Windows coming soon...</span></a></li>
-                            </ul>
-                        </div><!--//footer-col-inner-->
-                    </div><!--//download-->
-                    <div class="footer-col contact col-md-6 col-sm-12 col-xs-12">
-                        <div class="footer-col-inner">
-                            <h3 class="title">Contact us</h3>                          
-                            <p class="adr clearfix">
-                                <i class="fa fa-map-marker pull-left"></i>        
-                                <span class="adr-group pull-left">       
-                                    <span class="street-address">College Green</span><br>
-                                    <span class="region">56 College Green Road</span><br>
-                                    <span class="postal-code">BS1 XR18</span><br>
-                                    <span class="country-name">UK</span>
-                                </span>
-                            </p>
-                            <p class="tel"><i class="fa fa-phone"></i>0800 123 4567</p>
-                            <p class="email"><i class="fa fa-envelope-o"></i><a href="#">enquires@website.com</a></p> 
-                            <a href="https://twitter.com/3rdwave_themes" class="twitter-follow-button" data-show-count="false">Follow @3rdwave_themes</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>                        
-                        </div><!--//footer-col-inner-->
-                    </div><!--//contact-->
-                </div>
-            </div><!--//container-->
-        </div><!--//footer-content-->
-        <div class="bottom-bar">
-            <div class="container">
-                <small class="copyright">Copyright @ 2015 <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>                
-            </div><!--//container-->
-        </div><!--//bottom-bar-->
-    </footer><!--//footer-->
+    <?php require_once 'components/footer.php' ?>
     
     <!-- Video Modal -->
     <div class="modal modal-video" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
@@ -393,7 +345,10 @@
         </div><!--//config-wrapper-inner-->
     </div><!--//config-wrapper-->
  
-    <!-- Javascript -->          
+              
+
+
+    <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
@@ -408,6 +363,13 @@
     <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
     <script type="text/javascript" src="assets/js/vimeo.js"></script> 
     
+    <script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
+    <!-- datatable script -->
+    <script>
+        $(document).ready(function() {
+            $('#upcoming_batches').DataTable();
+        });
+    </script>    
             
 </body>
 </html> 
