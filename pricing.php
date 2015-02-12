@@ -116,8 +116,12 @@
                 <div class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
                     <div class="panel">
                         <div class="panel-heading">
-                            <h4 class="panel-title"><a data-parent="#accordion"
-                            data-toggle="collapse" class="panel-toggle" href="#faq1"><i class="fa fa-plus-square"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
+                            <h4 class="panel-title">
+                                <a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq1">
+                                    <i class="fa fa-plus-square"></i>
+                                    Why I should join the course?
+                                </a>
+                            </h4>
                         </div>
             
                         <div class="panel-collapse collapse" id="faq1">
@@ -140,7 +144,8 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h4 class="panel-title"><a data-parent="#accordion"
-                            data-toggle="collapse" class="panel-toggle" href="#faq2"><i class="fa fa-plus-square"></i>What is the ipsum dolor sit amet quam tortor?</a></h4>
+                            data-toggle="collapse" class="panel-toggle" href="#faq2"><i class="fa fa-plus-square"></i>
+                            What all the course will cover?</a></h4>
                         </div>
             
                         <div class="panel-collapse collapse" id="faq2">
@@ -163,7 +168,8 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h4 class="panel-title"><a data-parent="#accordion"
-                            data-toggle="collapse" class="panel-toggle" href="#faq3"><i class="fa fa-plus-square"></i>How does the morbi quam tortor work?</a></h4>
+                            data-toggle="collapse" class="panel-toggle" href="#faq3"><i class="fa fa-plus-square"></i>
+                            What will be the benefit of it?</a></h4>
                         </div>
             
                         <div class="panel-collapse collapse" id="faq3">
@@ -186,7 +192,8 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h4 class="panel-title"><a data-parent="#accordion"
-                            data-toggle="collapse" class="panel-toggle" href="#faq4"><i class="fa fa-plus-square"></i>Can I ipsum dolor sit amet nascetur ridiculus?</a></h4>
+                            data-toggle="collapse" class="panel-toggle" href="#faq4"><i class="fa fa-plus-square"></i>
+                            Can I have any job after joining this course?</a></h4>
                         </div>
             
                         <div class="panel-collapse collapse" id="faq4">
@@ -209,7 +216,8 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h4 class="panel-title"><a data-parent="#accordion"
-                            data-toggle="collapse" class="panel-toggle" href="#faq5"><i class="fa fa-plus-square"></i>Is it possible to tellus eget auctor condimentum?</a></h4>
+                            data-toggle="collapse" class="panel-toggle" href="#faq5"><i class="fa fa-plus-square"></i>
+                            Does // तोड़  // फोड़  {  Code provide me job guarantee?</a></h4>
                         </div>
             
                         <div class="panel-collapse collapse" id="faq5">
@@ -232,7 +240,8 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h4 class="panel-title"><a data-parent="#accordion"
-                            data-toggle="collapse" class="panel-toggle" href="#faq6"><i class="fa fa-plus-square"></i>Would it elementum turpis semper imperdiet?</a></h4>
+                            data-toggle="collapse" class="panel-toggle" href="#faq6"><i class="fa fa-plus-square"></i>
+                            What are other branches of // तोड़  // फोड़  {  Code?</a></h4>
                         </div>
             
                         <div class="panel-collapse collapse" id="faq6">
@@ -255,7 +264,8 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h4 class="panel-title"><a data-parent="#accordion"
-                            data-toggle="collapse" class="panel-toggle" href="#faq7"><i class="fa fa-plus-square"></i>How can I imperdiet lorem sem non nisl?</a></h4>
+                            data-toggle="collapse" class="panel-toggle" href="#faq7"><i class="fa fa-plus-square"></i>
+                            Does // तोड़  // फोड़  {  Code provide discount?</a></h4>
                         </div>
             
                         <div class="panel-collapse collapse" id="faq7">
@@ -274,29 +284,7 @@
                             </div>
                         </div>
                     </div><!--//panel-->
-                    
-                    <div class="panel">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"><a data-parent="#accordion"
-                            data-toggle="collapse" class="panel-toggle" href="#faq8"><i class="fa fa-plus-square"></i>Can I imperdiet massa ut?</a></h4>
-                        </div>
-            
-                        <div class="panel-collapse collapse" id="faq8">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                accusamus terry richardson ad squid. 3 wolf moon officia
-                                aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                sunt aliqua put a bird on it squid single-origin coffee
-                                nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                Leggings occaecat craft beer farm-to-table, raw denim
-                                aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div><!--//panel-->                        
+                                           
                 </div>
             </div><!--//row-->
             <div class="contact-lead text-center">
