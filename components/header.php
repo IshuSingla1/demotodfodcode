@@ -17,7 +17,10 @@
                     <ul class="nav navbar-nav">
                         <li class="active nav-item"><a href="index.php">Home</a></li>
                         <li class="nav-item"><a href="features.php">Courses Structure</a></li>
-                        <li class="nav-item"><a href="pricing.php">F.A.Q</a></li>
+                        <!-- FAQ file added inplace pricing
+                            <li class="nav-item"><a href="pricing.php">F.A.Q</a></li>
+                        -->
+                        <li class="nav-item"><a href="faq.php">F.A.Q</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Pages <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
