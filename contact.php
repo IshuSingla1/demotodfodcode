@@ -40,7 +40,7 @@
         <section class="contact-section section section-on-bg">
             <div class="container">
                 <h2 class="title text-center">Contact Us</h2>
-                <p class="intro text-center">We’d love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="intro text-center">We’d love to hear from you. Have any question? Drop us a message. We will get back to you in 24 hours.</p>
                 <form id="contact-form" class="contact-form" method="post" action="">                    
                     <div class="row text-center">
                         <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
@@ -73,13 +73,13 @@
         <section class="contact-other-section section">
             <div class="container text-center">
                 <h2 class="title">Other ways to reach us</h2>
-                <p class="intro">You can also get in touch lorem ipsum dolor sit amet. Donec ut massa consequat, bibendum metus pellentesque, pellentesque arcu. </p>
+                <p class="intro">You can also get in touch with // तोड़  // फोड़  {  Code </p>
                 <div class="row">
                     <ul class="other-info list-unstyled col-md-6 col-sm-10 col-xs-12 col-md-offset-3 col-sm-offset-1 xs-offset-0" >
-                        <li><i class="fa fa-envelope-o"></i><a href="#">hello@yourwebsite.com</a></li>
-                        <li><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_media" target="_blank">@3rdwave_themes</a></li>
+                        <li><i class="fa fa-envelope-o"></i><a href="#">todfodcode@gmail.com</a></li>
+                        <li><i class="fa fa-twitter"></i><a href="https://twitter.com/todfodcode" target="_blank">@todfodcode</a></li>
                         <li><i class="fa fa-phone"></i><a href="tel:+0800123456">0800 123 456</a></li>
-                        <li><i class="fa fa-map-marker"></i>Queen Square <br /> 56 College Green Road<br />BS1 XR18<br />Bristol<br />UK</li>
+                        <li><i class="fa fa-map-marker"></i> Genesis Building, <br />Sarjapur Signal<br />Belandur 560103<br /> Bangalore<br />INDIA</li>
                     </ul>
                 </div><!--//row-->
             </div><!--//container-->
