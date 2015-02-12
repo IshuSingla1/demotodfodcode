@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive website template for products</title>
+    <title>Course Structure</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,49 +47,101 @@
     <!-- ******Features Section****** -->       
     <section class="features-tabbed section">
         <div class="container">
-            <h2 class="title text-center">Product Features</h2>
+            <h2 class="title text-center">Web Development</h2>
             <div class="row">
                 <div class=" text-center col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs text-center" role="tablist">
-                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-cloud-upload"></i><br /><span class="hidden-sm hidden-xs">Feature One</span></a></li>
-                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i><br /><span class="hidden-sm hidden-xs">Feature Two</span></a></li>
-                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-photo"></i><br /><span class="hidden-sm hidden-xs">Feature Three</span></a></li>
+                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-cloud-upload"></i><br /><span class="hidden-sm hidden-xs">Course Content</span></a></li>
+                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i><br /><span class="hidden-sm hidden-xs">PHP</span></a></li>
+                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-photo"></i><br /><span class="hidden-sm hidden-xs">MySql</span></a></li>
                         <li class="last"><a href="#feature-4" role="tab" data-toggle="tab"><i class="fa fa-users"></i><br /><span class="hidden-sm hidden-xs">Feature Four</span></a></li>
                     </ul><!--//nav-tabs-->
                     
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div class="tab-pane fade in active" id="feature-1">
-                            <h3 class="title sr-only">Feature One</h3>                                    
+                            <h3 class="title sr-only">Course Content</h3>                                    
                             <figure class="figure text-center">
                                 <img class="img-responsive" src="assets/images/features/screenshot-1.png" alt="" />
                                 <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
                             </figure>
                             <div class="desc text-left">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue leo mauris, a fringilla nisi posuere tincidunt. Aliquam elementum lorem eget sollicitudin suscipit.</p>
-                                <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
                                 <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i>Lorem ipsum dolor sit amet.</li>
-                                    <li><i class="fa fa-star"></i>Aliquam tincidunt mauris eu risus.</li>
-                                    <li><i class="fa fa-star"></i>Ultricies eget vel aliquam libero.</li>
-                                    <li><i class="fa fa-star"></i>Maecenas nec odio.</li>
+                                    <li><i class="fa fa-star"></i>Introduction to Internet and World wide web.</li>
+                                    <li><i class="fa fa-star"></i>Introduction to Evolution of computer languages.</li>
+                                    <li><i class="fa fa-star"></i>Introduction to Domain Names and Web hosts.</li>
+                                    <li><i class="fa fa-star"></i>Configuring LAMP, WAMP, Phpmyadmin, MySql Server.</li>
+                                    <li><i class="fa fa-star"></i>Introduction to Domain Names and Web hosts.</li>
+                                    <li><i class="fa fa-star"></i>Database Design Concepts.</li>
+                                    <li><i class="fa fa-star"></i>HTML, CSS, JavaScript, PHP, AJAX, MySql, Jquery.</li>
+                                    <li><i class="fa fa-star"></i>PHP Framework.</li>
+                                    <li><i class="fa fa-star"></i>Design Patterns.</li>
+                                    <li><i class="fa fa-star"></i>Live Project within collaboration (TeamWork).</li>
+                                    <li><i class="fa fa-star"></i>Communication Skills, Preparation to interview.</li>
+                                    <li><i class="fa fa-star"></i>How to crack interview.</li>
+                                    <li><i class="fa fa-star"></i>Celebration for student success.</li>
                                 </ul>
-                                
-                                <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. </p>
+                                <blockquote>
+                                    <p>Note: The course content is not limited to as listed above.</p>
+                                </blockquote>
                             </div><!--//desc-->
                         </div><!--//tab-pane-->
                         <div class="tab-pane" id="feature-2">
-                            <h3 class="title sr-only">Feature Two</h3>                                    
+                            <h3 class="title sr-only">PHP</h3>                                    
                             <figure class="figure text-center">
                                 <img class="img-responsive" src="assets/images/features/screenshot-2.png" alt="" />
                                 <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
                             </figure>
                             <div class="desc text-left">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue leo mauris, a fringilla nisi posuere tincidunt. Aliquam elementum lorem eget sollicitudin suscipit.</p>
-                                <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nulla at libero ultricies tempus. Duis porta justo quam, ut ultrices felis posuere sit amet. Sed imperdiet bibendum est, sit amet sagittis ante sagittis eu. <a href="#">Integer fringilla</a> a purus sit amet laoreet. Ut consequat volutpat sapien sed lobortis. Nullam laoreet vitae justo nec dignissim. 
-                                </p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-star"></i>Introduction to PHP, PHP Installation.</li>
+                                    <li><i class="fa fa-star"></i>
+                                        PHP Fundamentals, PHP .ini Configuration file.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        PHP Syntax, PHP Comments.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Variables, Strings, Operators.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Conditional Statement, If-Else, Switch Statement.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Function Definition, Function Scope.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Function Arguments and Return Values, Arrays, Sorting Arrays.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Handling Multidimensional Arrays, While Loops.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        For Loops, Do While Loops, Foreach Loops.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Functions, PHP Form, Retrieving Form Data.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Implementing PHP in HTML, Implementing HTML with PHP.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        $_GET Method, $_POST Method.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Difference between $_GET and $_POST.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Date Function, PHP Include, PHP File, File Upload.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Working with Pagination Cookies, Sessions.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Sending E-mail, Secure E-mail, Handling Error.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Object Oriented Programming System(OOPS).</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        PHP using OOP's.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Class & Object, function.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Exception Handling, Try & Catch Block, Throw & Throws.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Introduction to MYSQL, Creating Connection with Database.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Creating DB/Table, Select, Where & Orderby, Update, Delete.</li>
+                                                                            <li><i class="fa fa-star"></i>
+                                        Uploading Files to Web Server.</li>
+                                    </ul>
+                                
                                 <blockquote>
                                     <p>Viverra magna pellentesque in magnis gravida sit augue felis vehicula vestibulum semper penatibus justo ornare semper Gravida felis platea arcu mus non. Montes at posuere. Natoque.</p>
                                 </blockquote>
@@ -97,16 +149,46 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nulla at libero
                             </div><!--//desc-->
                         </div><!--//tab-pane-->
                         <div class="tab-pane" id="feature-3">
-                            <h3 class="title sr-only">Feature Three</h3>
+                            <h3 class="title sr-only">MySql</h3>
                             <figure class="figure text-center">
                                 <img class="img-responsive" src="assets/images/features/screenshot-3.png" alt="" />
                                 <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
                             </figure>
                             <div class="desc text-left">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue leo mauris, a fringilla nisi posuere tincidunt. Aliquam elementum lorem eget sollicitudin suscipit.</p>
-                                
-                                <p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. </p>
-                                
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-star"></i>
+                                Introduction to MySql, Installing and Upgrading MySQL</li>
+                                                                            <li><i class="fa fa-star"></i>    
+MySQL Programs, MySQL Server Administration</li>
+                                                                            <li><i class="fa fa-star"></i>
+Database Designing, Normalization</li>
+                                                                            <li><i class="fa fa-star"></i>
+Security, Backup and Recovery,Optimization, Language Structure</li>
+                                                                            <li><i class="fa fa-star"></i>
+Globalization, Data Types, Functions and Operators</li>
+                                                                            <li><i class="fa fa-star"></i>
+SQL Statement Syntax</li>
+                                                                            <li><i class="fa fa-star"></i>
+The InnoDB Storage Engine, Alternative Storage Engines</li>
+                                                                            <li><i class="fa fa-star"></i>
+High Availability and Scalability</li>
+                                                                            <li><i class="fa fa-star"></i>
+Replication, Partitioning, Stored Programs and Views</li>
+                                                                            <li><i class="fa fa-star"></i>
+INFORMATION_SCHEMA Tables</li>
+                                                                            <li><i class="fa fa-star"></i>
+MySQL Performance Schema, Connectors and APIs</li>
+                                                                            <li><i class="fa fa-star"></i>
+Extending MySQL, MySQL Enterprise Edition, MySQL Workbench</li>
+                                                                            <li><i class="fa fa-star"></i>
+Errors, Error Codes, and Common Problems</li>
+                                                                            <li><i class="fa fa-star"></i>
+Join Types Index, Operator Index, Option Index, Privileges Index</li>
+                                                                            <li><i class="fa fa-star"></i>
+SQL Modes Index, Statement/Syntax Index, Status Variable Index</li>
+                                                                            <li><i class="fa fa-star"></i>
+System Variable Index, Transaction Isolation Level Index</li>
+</ul>
                                 <div class="table-responsive">  
                                     <table class="table table-striped">
                                         <thead>

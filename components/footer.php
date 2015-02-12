@@ -6,8 +6,7 @@
                         <div class="footer-col-inner">
                             <h3 class="title">About us</h3>
                             <ul class="list-unstyled">
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Who we are</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Press</a></li>
+                                <li><a href="about.php"><i class="fa fa-caret-right"></i>Who we are</a></li>
                                 <li><a href="#"><i class="fa fa-caret-right"></i>Blog</a></li>
                                 <li><a href="#"><i class="fa fa-caret-right"></i>Jobs</a></li>
                                 <li><a href="#"><i class="fa fa-caret-right"></i>Contact us</a></li>
@@ -75,14 +74,14 @@
                             <p class="adr clearfix">
                                 <i class="fa fa-map-marker pull-left"></i>        
                                 <span class="adr-group pull-left">       
-                                    <span class="street-address">College Green</span><br>
-                                    <span class="region">56 College Green Road</span><br>
-                                    <span class="postal-code">BS1 XR18</span><br>
-                                    <span class="country-name">UK</span>
+                                    <span class="street-address">Genesis, Sarjapur Signal</span><br>
+                                    <span class="region"></span>Belandur, Bangalore<br>
+                                    <span class="postal-code">560103</span><br>
+                                    <span class="country-name">India</span>
                                 </span>
                             </p>
                             <p class="tel"><i class="fa fa-phone"></i>0800 123 4567</p>
-                            <p class="email"><i class="fa fa-envelope-o"></i><a href="#">enquires@website.com</a></p> 
+                            <p class="email"><i class="fa fa-envelope-o"></i><a href="#">rahul_lahoria@yahoo.com</a></p> 
                             <a href="https://twitter.com/3rdwave_themes" class="twitter-follow-button" data-show-count="false">Follow @3rdwave_themes</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>                        
                         </div><!--//footer-col-inner-->
@@ -92,7 +91,7 @@
         </div><!--//footer-content-->
         <div class="bottom-bar">
             <div class="container">
-                <small class="copyright">Copyright @ 2015 <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>                
+                <small class="copyright">Copyright @ 2015 <a href="http://dpower4.com/" target="_blank">Poweredd By: Dpower4</a></small>                
             </div><!--//container-->
         </div><!--//bottom-bar-->
     </footer><!--//footer-->
