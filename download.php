@@ -27,45 +27,53 @@
     <![endif]-->
 </head> 
 
-<body class="resetpass-page access-page has-full-screen-bg">
-    <div class="upper-wrapper">
-        <!-- ******HEADER****** -->
-        <header class="header">  
-            <div class="container">       
-                <h1 class="logo">
-                    <a href="index.html"><span class="logo-icon"></span><span class="text">Velocity</span></a>
-                </h1><!--//logo-->
-                                     
-            </div><!--//container-->
-        </header><!--//header-->
-        
-        <!-- ******resetpass Section****** --> 
-        <section class="resetpass-section access-section section">
-            <div class="container">
-                <div class="row">
-                    <div class="form-box col-md-6 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-2 xs-offset-0">     
-                        <div class="form-box-inner">
-                            <h2 class="title text-center">Password Reset</h2>    
-                            <p class="intro">Please enter your email address below and we'll email you a link to a page where you can easily create a new password.</p>             
-                            <div class="row">
-                                <div class="form-container">
-                                    <form class="resetpass-form">              
-                                        <div class="form-group email">
-                                            <label class="sr-only" for="reset-email">Email</label>
-                                            <input id="reset-email" type="email" class="form-control resetpass-email" placeholder="Email">
-                                        </div><!--//form-group-->  
-                                        <button type="submit" class="btn btn-block btn-cta-primary">Reset Password</button>
-                                    </form>
-                                    <p class="lead text-center">Take me back to the <a href="login.html">login</a> page</p>
-                                </div><!--//form-container-->
-                            </div><!--//row-->
-                        </div><!--//form-box-inner-->
-                    </div><!--//form-box-->
-                </div><!--//row-->
-            </div><!--//container-->
-        </section><!--//contact-section-->
-    </div><!--//upper-wrapper-->
+<body class="download-page">   
+    <!-- ******HEADER****** --> 
+    <?php require_once 'components/header.php' ?>
     
+    <div class="headline-bg">
+    </div><!--//headline-bg-->      
+    
+    <!-- ******Apps Section****** --> 
+    <section class="apps-section section section-on-bg">
+        <div class="container">
+            <div class="row">
+                <div class="content-area col-md-6 col-sm-6 col-xs-12 col-md-push-5 col-sm-push-6 col-xs-push-0">
+                    <div class="download-area">
+                        <h2 class="title">Get connected anytime, anywhere</h2>
+                        <p class="intro">Download our app for your mobile devices</p>
+                        <ul class="list-unstyled download-list">
+                            <li><a class="btn btn-ghost" href="#"><i class="fa fa-apple"></i><span class="text">Download for iOS</span> </a></li>
+                            <li><a class="btn btn-ghost" href="#"><i class="fa fa-android"></i><span class="text">Download for Android</span></a></li>
+                            <li><a class="btn btn-ghost" href="#"><i class="fa fa-windows"></i><span class="text">Windows coming soon...</span></a></li>
+                        </ul>
+                        <!--//Only show QR code on desktop -->
+                        <div class="qrcode-holder hidden-sm hidden-xs text-center">                      
+                            <figure class="qrcode">
+                                <img class="img-responsive" src="assets/images/mobile/QR-code.png" alt="QR code" />
+                                <figcaption class="caption">Scan the QR code<br /> to download</figcaption>
+                            </figure><!--//qrcode-->
+                        </div>
+                    </div><!--//download-area-->
+                    <div class="info">
+                        <div class="info-inner">
+                            <h3 class="title"><i class="fa fa-bullhorn"></i> Annoucement</h3>
+                            <p>Any app related updates can go into this area. Example - We are going to release our app for Windows phone on 23rd Jan 2015.</p>
+                            <p>You can <a href="http://www.appqr.mobi/" target="_blank">generate a single QR code</a> for your app download. Magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec.</p>
+                            
+                        </div>
+                    </div>
+                </div><!--//content-area-->    
+                <div class="phone-holder-wrapper col-md-4 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1 col-xs-offste-0 col-md-pull-6 col-sm-pull-6 col-xs-pull-0">
+                    <div class="phone-holder">
+                        <img class="screenshot" src="assets/images/mobile/screenshot.png" alt="" />
+                    </div><!--//phone-holder--> 
+                </div><!--//phone-holder-wrapper-->               
+            </div><!--//row-->        
+        </div><!--//container-->
+    </section><!--//feature-video--> 
+
+
     <!-- ******FOOTER****** --> 
     <footer class="footer">
         <div class="footer-content">
@@ -196,7 +204,7 @@
     <script type="text/javascript" src="assets/plugins/bootstrap-hover-dropdown.min.js"></script>
     <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>  
     <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
     <script type="text/javascript" src="assets/js/main.js"></script>
     

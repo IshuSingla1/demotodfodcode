@@ -27,59 +27,128 @@
     <![endif]-->
 </head> 
 
-<body class="signup-page access-page has-full-screen-bg">
-    <div class="upper-wrapper">
-        <!-- ******HEADER****** -->
-        <header class="header">
-            <div class="container">       
-                <h1 class="logo">
-                    <a href="index.html"><span class="logo-icon"></span><span class="text">Velocity</span></a>
-                </h1><!--//logo-->
-                                     
-            </div><!--//container-->
-        </header><!--//header-->
-        
-        <!-- ******Login Section****** --> 
-        <section class="signup-section access-section section">
-            <div class="container">
-                <div class="row">
-                    <div class="form-box col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">     
-                        <div class="form-box-inner">
-                            <h2 class="title text-center">Sign up now</h2>  
-                            <p class="intro text-center">It only takes 3 minutes!</p>               
-                            <div class="row">
-                                <div class="form-container col-md-5 col-sm-12 col-xs-12">
-                                    <form class="signup-form">                
-                                        <div class="form-group email">
-                                            <label class="sr-only" for="signup-email">Your email</label>
-                                            <input id="signup-email" type="email" class="form-control login-email" placeholder="Your email">
-                                        </div><!--//form-group-->
-                                        <div class="form-group password">
-                                            <label class="sr-only" for="signup-password">Your password</label>
-                                            <input id="signup-password" type="password" class="form-control login-password" placeholder="Password">
-                                        </div><!--//form-group-->
-                                        <button type="submit" class="btn btn-block btn-cta-primary">Sign up</button>
-                                        <p class="note">By signing up, you agree to our terms of services and privacy policy.</p>
-                                        <p class="lead">Already have an account? <a class="login-link" id="login-link" href="login.html">Log in</a></p>  
-                                    </form>
-                                </div><!--//form-container-->
-                                <div class="social-btns col-md-5 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-sm-offset-0">  
-                                    <div class="divider"><span>Or</span></div>                      
-                                    <ul class="list-unstyled social-login">
-                                        <li><button class="twitter-btn btn" type="button"><i class="fa fa-twitter"></i>Sign up with Twitter</button></li>
-                                        <li><button class="facebook-btn btn" type="button"><i class="fa fa-facebook"></i>Sign up with Facebook</button></li>
-                                        <li><button class="github-btn btn" type="button"><i class="fa fa-github-alt"></i>Sign up with Github</button></li>
-                                        <li><button class="google-btn btn" type="button"><i class="fa fa-google-plus"></i>Sign up with Google</button></li>
-                                    </ul>
-                                    <p class="note">Don't worry, we won't post anything without your permission.</p>
-                                </div><!--//social-login-->
-                            </div><!--//row-->
-                        </div><!--//form-box-inner-->
-                    </div><!--//form-box-->
-                </div><!--//row-->
-            </div><!--//container-->
-        </section><!--//contact-section-->
-    </div><!--//upper-wrapper-->
+<body class="about-page">    
+    <!-- ******HEADER****** --> 
+    <?php require_once 'components/header.php' ?>
+    
+    <div class="headline-bg about-headline-bg">
+    </div><!--//headline-bg-->         
+    
+    <!-- ******Video Section****** --> 
+    <section class="story-section section section-on-bg">
+        <h2 class="title container text-center">Our story, our value</h2>
+        <div class="story-container container text-center"> 
+            <div class="story-container-inner" >                    
+                <div class="about">
+                    <p>Tell users the story behind the product. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p> 
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, <a href="#">pretium quis</a>, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                    <blockquote class="belife">We believe sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</blockquote>               
+                </div><!--//about-->
+                <div class="team row">
+                    <h3 class="title">Meet the team</h3>
+                    <div class="member col-md-4 col-sm-6 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile">
+                                <img class="img-responsive" src="assets/images/team/member-1.png" alt=""/>
+                                <figcaption class="info">
+                                    <span class="name">Mark Cooper</span>
+                                    <br />
+                                    <span class="job-title">Co-Founder</span>
+                                    
+                                </figcaption>
+                            </figure><!--//profile-->
+                            <div class="social">
+                                <ul class="social-list list-inline">
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                </ul><!--//social-list-->
+                            </div><!--//social-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                    <div class="member col-md-4 col-sm-6 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile">
+                                <img class="img-responsive" src="assets/images/team/member-2.png" alt=""/>
+                                <figcaption class="info"><span class="name">Jack Tang</span><br /><span class="job-title">Co-Founder</span></figcaption>
+                            </figure><!--//profile-->
+                            <div class="social">
+                                <ul class="social-list list-inline">
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                </ul><!--//social-list-->
+                            </div><!--//social-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                    <div class="member col-md-4 col-sm-6 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile">
+                                <img class="img-responsive" src="assets/images/team/member-3.png" alt=""/>
+                                <figcaption class="info"><span class="name">Anna Perry</span><br /><span class="job-title">Product/UX Designer</span></figcaption>
+                            </figure><!--//profile-->
+                            <div class="social">
+                                <ul class="social-list list-inline">
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul><!--//social-list-->
+                            </div><!--//social-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                    <div class="member col-md-4 col-sm-6 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile">
+                                <img class="img-responsive" src="assets/images/team/member-4.png" alt=""/>
+                                <figcaption class="info"><span class="name">Tim Robertson</span><br /><span class="job-title">Back-end Developer</span></figcaption>
+                            </figure><!--//profile-->
+                            <div class="social">
+                                <ul class="social-list list-inline">
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                </ul><!--//social-list-->
+                            </div><!--//social-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                    <div class="member col-md-4 col-sm-6 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile">
+                                <img class="img-responsive" src="assets/images/team/member-5.png" alt=""/>
+                                <figcaption class="info"><span class="name">Rachel Wu</span><br /><span class="job-title">Front-end Developer</span></figcaption>
+                            </figure><!--//profile-->
+                            <div class="social">
+                                <ul class="social-list list-inline">
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                </ul><!--//social-list-->
+                            </div><!--//social-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                    <div class="member col-md-4 col-sm-6 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile">
+                                <img class="img-responsive" src="assets/images/team/member-6.png" alt=""/>
+                                <figcaption class="info"><span class="name">Carl Allison</span><br /><span class="job-title">Mobile Developer</span></figcaption>
+                            </figure><!--//profile-->
+                            <div class="social">
+                                <ul class="social-list list-inline">
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                </ul><!--//social-list-->
+                            </div><!--//social-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                </div><!--//team-->
+                <div class="press-kit text-center">
+                    <h3 class="title">Press Kit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+                    <p>Please <a href="contact.html">contact us</a> if you need more materials.</p>
+                    <a class="btn btn-cta btn-cta-secondary" href="#">Download Press Kit</a>
+                </div><!--//press-kit-->
+            </div><!--//story-container--> 
+        </div><!--//container-->
+    </section><!--//story-video-->
     
     <!-- ******FOOTER****** --> 
     <footer class="footer">
@@ -211,7 +280,7 @@
     <script type="text/javascript" src="assets/plugins/bootstrap-hover-dropdown.min.js"></script>
     <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script> 
+    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
     <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>  
     <script type="text/javascript" src="assets/js/main.js"></script>
     

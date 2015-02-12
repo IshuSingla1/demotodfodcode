@@ -27,55 +27,45 @@
     <![endif]-->
 </head> 
 
-<body class="login-page access-page has-full-screen-bg">
+<body class="signup-page access-page has-full-screen-bg">
     <div class="upper-wrapper">
         <!-- ******HEADER****** -->
-        <header class="header">  
-            <div class="container">       
-                <h1 class="logo">
-                    <a href="index.html"><span class="logo-icon"></span><span class="text">Velocity</span></a>
-                </h1><!--//logo-->
-                                     
-            </div><!--//container-->
-        </header><!--//header-->
+        <?php require_once 'components/header.php' ?>
         
         <!-- ******Login Section****** --> 
-        <section class="login-section access-section section">
+        <section class="signup-section access-section section">
             <div class="container">
                 <div class="row">
                     <div class="form-box col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">     
                         <div class="form-box-inner">
-                            <h2 class="title text-center">Log in to Velocity</h2>                 
+                            <h2 class="title text-center">Sign up now</h2>  
+                            <p class="intro text-center">It only takes 3 minutes!</p>               
                             <div class="row">
                                 <div class="form-container col-md-5 col-sm-12 col-xs-12">
-                                    <form class="login-form">              
+                                    <form class="signup-form">                
                                         <div class="form-group email">
-                                            <label class="sr-only" for="login-email">Email or username</label>
-                                            <input id="login-email" type="email" class="form-control login-email" placeholder="Email or username">
+                                            <label class="sr-only" for="signup-email">Your email</label>
+                                            <input id="signup-email" type="email" class="form-control login-email" placeholder="Your email">
                                         </div><!--//form-group-->
                                         <div class="form-group password">
-                                            <label class="sr-only" for="login-password">Password</label>
-                                            <input id="login-password" type="password" class="form-control login-password" placeholder="Password">
-                                            <p class="forgot-password"><a href="reset-password.html">Forgot password?</a></p>
+                                            <label class="sr-only" for="signup-password">Your password</label>
+                                            <input id="signup-password" type="password" class="form-control login-password" placeholder="Password">
                                         </div><!--//form-group-->
-                                        <button type="submit" class="btn btn-block btn-cta-primary">Log in</button>
-                                        <div class="checkbox remember">
-                                            <label>
-                                                <input type="checkbox"> Remember me
-                                            </label>
-                                        </div><!--//checkbox-->
-                                         <p class="lead">Don't have a Velocity account yet? <br /><a class="signup-link" href="signup.html">Create your account now</a></p>  
+                                        <button type="submit" class="btn btn-block btn-cta-primary">Sign up</button>
+                                        <p class="note">By signing up, you agree to our terms of services and privacy policy.</p>
+                                        <p class="lead">Already have an account? <a class="login-link" id="login-link" href="login.html">Log in</a></p>  
                                     </form>
                                 </div><!--//form-container-->
                                 <div class="social-btns col-md-5 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-sm-offset-0">  
                                     <div class="divider"><span>Or</span></div>                      
                                     <ul class="list-unstyled social-login">
-                                        <li><button class="twitter-btn btn" type="button"><i class="fa fa-twitter"></i>Log in with Twitter</button></li>
-                                        <li><button class="facebook-btn btn" type="button"><i class="fa fa-facebook"></i>Log in with Facebook</button></li>
-                                        <li><button class="github-btn btn" type="button"><i class="fa fa-github-alt"></i>Log in with Github</button></li>
-                                        <li><button class="google-btn btn" type="button"><i class="fa fa-google-plus"></i>Log in with Google</button></li>
+                                        <li><button class="twitter-btn btn" type="button"><i class="fa fa-twitter"></i>Sign up with Twitter</button></li>
+                                        <li><button class="facebook-btn btn" type="button"><i class="fa fa-facebook"></i>Sign up with Facebook</button></li>
+                                        <li><button class="github-btn btn" type="button"><i class="fa fa-github-alt"></i>Sign up with Github</button></li>
+                                        <li><button class="google-btn btn" type="button"><i class="fa fa-google-plus"></i>Sign up with Google</button></li>
                                     </ul>
-                                </div><!--//social-btns-->
+                                    <p class="note">Don't worry, we won't post anything without your permission.</p>
+                                </div><!--//social-login-->
                             </div><!--//row-->
                         </div><!--//form-box-inner-->
                     </div><!--//form-box-->
@@ -214,8 +204,8 @@
     <script type="text/javascript" src="assets/plugins/bootstrap-hover-dropdown.min.js"></script>
     <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script> 
+    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>  
     <script type="text/javascript" src="assets/js/main.js"></script>
     
             
