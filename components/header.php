@@ -16,23 +16,27 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item"><a href="index.php">Home</a></li>
-                        <li class="nav-item"><a href="features.php">Courses Structure</a></li>
+                        <li class="nav-item"><a href="features.php">Courses</a></li>
                         <!-- FAQ file added inplace pricing
                             <li class="nav-item"><a href="pricing.php">F.A.Q</a></li>
                         -->
+                        <li class="nav-item"><a href="faq.php">Projects</a></li>
+                        
                         <li class="nav-item"><a href="faq.php">F.A.Q</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Pages <i class="fa fa-angle-down"></i></a>
+                        <li class="nav-item"><a href="about.php">About Us</a></li>
+                        <li class="nav-item"><a href="contact.php">Contact</a></li>
+                        <li class="nav-item"><a href="download.php">Downloads</a></li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Blogs<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="download.php">Download Apps</a></li>
+                                
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="blog-single.php">Blog Single</a></li>
                                 <li><a href="blog-category.php">Blog Category</a></li>
                                 <li><a href="blog-archive.php">Blog Archive</a></li>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="contact.php">Contact</a></li>                    
+                                                   
                             </ul>                            
-                        </li><!--//dropdown-->                         
+                        </li> --><!--//dropdown-->                         
                         <li class="nav-item"><a href="login.php">Log in</a></li>
                         <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="signup.php">Sign Up Free</a></li>
                     </ul><!--//nav-->

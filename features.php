@@ -52,20 +52,63 @@
                 <div class=" text-center col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs text-center" role="tablist">
-                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-cloud-upload"></i><br /><span class="hidden-sm hidden-xs">Course Content</span></a></li>
-                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i><br /><span class="hidden-sm hidden-xs">PHP</span></a></li>
-                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-photo"></i><br /><span class="hidden-sm hidden-xs">MySql</span></a></li>
-                        <li class="last"><a href="#feature-4" role="tab" data-toggle="tab"><i class="fa fa-users"></i><br /><span class="hidden-sm hidden-xs">Feature Four</span></a></li>
+                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-cloud-upload"></i><br /><span class="hidden-sm hidden-xs">Demo Class</span></a></li>
+                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i><br /><span class="hidden-sm hidden-xs">Course Content</span></a></li>
+                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-photo"></i><br /><span class="hidden-sm hidden-xs">PHP</span></a></li>
+                        <li class="last"><a href="#feature-4" role="tab" data-toggle="tab"><i class="fa fa-users"></i><br /><span class="hidden-sm hidden-xs">MySql</span></a></li>
                     </ul><!--//nav-tabs-->
                     
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div class="tab-pane fade in active" id="feature-1">
-                            <h3 class="title sr-only">Course Content</h3>                                    
-                            <figure class="figure text-center">
+                            <h3 class="title sr-only">Demo Class</h3>                                    
+                            <!-- <figure class="figure text-center">
                                 <img class="img-responsive" src="assets/images/features/screenshot-1.png" alt="" />
                                 <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
-                            </figure>
+                            </figure> -->
+                            <div class="desc text-left">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-star"></i><b>Day 1: Survey</b><br/>
+Introduction to Internet and World Wide Web<br/>
+Introduction to Evolution of computer languages<br/>
+Introduction to Domain Names and Web hosts<br/>
+Different Components of a Webapp<br/>
+</li>
+                                    <li><i class="fa fa-star"></i><b>Day 2: Setting up the Factory</b><br/>
+Configuring LAMP, WAMP, Phpmyadmin, MySql Server<br/>
+PHP Syntax<br/>
+First php page with HTML and CSS<br/>
+Database Vs File Systems<br/>
+</li>
+                                    <li><i class="fa fa-star"></i><b>Day 3: Get some Raw Material</b><br/>
+Database Designing<br/>
+Design 1st Database<br/>
+Php Conditional Statement<br/>
+</li>
+                                    <li><i class="fa fa-star"></i><b>Day 4: Build a Prototype</b><br/>
+PHP Loops<br/>
+Linking PHP and MySQL<br/>
+Design a Login Page<br/>
+</li>
+                                    <li><i class="fa fa-star"></i><b>Day 5: First Production</b><br/>
+Generate Ideas for a New Webapp<br/>
+</li>
+                                    <li><i class="fa fa-star"></i><b>Day 6: Hall of Fame</b><br/>
+Showcase your Webapp & Rewards<br/>
+</li>
+                                   
+                                </ul>
+                                <blockquote>
+                                    <p>Note: The course content is not limited to as listed above.</p>
+                                </blockquote>
+                            </div><!--//desc-->
+                        </div><!--//tab-pane-->
+                        <div class="tab-pane" id="feature-2">
+                            <h3 class="title sr-only">Course Content</h3>                                    
+                            <!-- <figure class="figure text-center">
+                                <img class="img-responsive" src="assets/images/features/screenshot-1.png" alt="" />
+                                <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+                            </figure> -->
                             <div class="desc text-left">
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-star"></i>Introduction to Internet and World wide web.</li>
@@ -87,13 +130,14 @@
                                 </blockquote>
                             </div><!--//desc-->
                         </div><!--//tab-pane-->
-                        <div class="tab-pane" id="feature-2">
+                        <div class="tab-pane" id="feature-3">
                             <h3 class="title sr-only">PHP</h3>                                    
-                            <figure class="figure text-center">
+                            <!-- <figure class="figure text-center">
                                 <img class="img-responsive" src="assets/images/features/screenshot-2.png" alt="" />
                                 <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
                             </figure>
-                            <div class="desc text-left">
+                             -->
+                             <div class="desc text-left">
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-star"></i>Introduction to PHP, PHP Installation.</li>
                                     <li><i class="fa fa-star"></i>
@@ -143,17 +187,17 @@
                                     </ul>
                                 
                                 <blockquote>
-                                    <p>Viverra magna pellentesque in magnis gravida sit augue felis vehicula vestibulum semper penatibus justo ornare semper Gravida felis platea arcu mus non. Montes at posuere. Natoque.</p>
+                                    <p>Note: The course content is not limited to as listed above.</p>
                                 </blockquote>
                                 
                             </div><!--//desc-->
                         </div><!--//tab-pane-->
-                        <div class="tab-pane" id="feature-3">
+                        <div class="tab-pane" id="feature-4">
                             <h3 class="title sr-only">MySql</h3>
-                            <figure class="figure text-center">
+                            <!-- <figure class="figure text-center">
                                 <img class="img-responsive" src="assets/images/features/screenshot-3.png" alt="" />
                                 <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
-                            </figure>
+                            </figure> -->
                             <div class="desc text-left">
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-star"></i>
@@ -189,7 +233,7 @@ SQL Modes Index, Statement/Syntax Index, Status Variable Index</li>
                                                                             <li><i class="fa fa-star"></i>
 System Variable Index, Transaction Isolation Level Index</li>
 </ul>
-                                <div class="table-responsive">  
+                                <!-- <div class="table-responsive">  
                                     <table class="table table-striped">
                                         <thead>
                                             <tr>
@@ -220,23 +264,13 @@ System Variable Index, Transaction Isolation Level Index</li>
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div><!--//table-responsive-->
+                                </div> --><!--//table-responsive-->
+                                <blockquote>
+                                    <p>Note: The course content is not limited to as listed above.</p>
+                                </blockquote>
                             </div><!--//desc-->                                    
                         </div><!--//tab-pane-->
-                        <div class="tab-pane" id="feature-4">
-                            <h3 class="title sr-only">Feature Four</h3>                                    
-                            <figure class="figure text-center">
-                                <img class="img-responsive" src="assets/images/features/screenshot-4.png" alt="" />
-                                <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
-                            </figure>
-                            <div class="desc text-left">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue leo mauris, a fringilla nisi posuere tincidunt. Aliquam elementum lorem eget sollicitudin suscipit.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu</p>
-                                <p class="box">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nulla at libero ultricies tempus. Duis porta justo quam, ut ultrices felis posuere sit amet. Sed imperdiet bibendum est, sit amet sagittis ante sagittis eu. Ut consequat volutpat sapien sed lobortis. Nullam laoreet vitae justo nec dignissim.
-                                </p>
-                            </div><!--//desc-->
-                        </div><!--//tab-pane-->
+                        
                     </div><!--//tab-content-->
                 </div><!--//col-md-x-->
             </div><!--//row-->
@@ -246,18 +280,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nulla at libero
     <!-- ******Steps Section****** --> 
     <section class="steps section">
         <div class="container">
-            <h2 class="title text-center">3 Simple Steps to Get you started with Velocity</h2>
+            <h2 class="title text-center">3 Simple Steps to started your career</h2>
             <div class="row">
                  <div class="step text-center col-md-4 col-sm-4 col-xs-12">
-                     <h3 class="title"><span class="number">1</span><br /><span class="text">Sign up</span></h3>
+                     <h3 class="title"><span class="number">1</span><br /><span class="text">Registor for Demo class</span></h3>
                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                  </div><!--//step-->
                  <div class="step text-center col-md-4 col-sm-4 col-xs-12">
-                     <h3 class="title"><span class="number">2</span><br /><span class="text">Choose your lorem ipsum</span></h3>
+                     <h3 class="title"><span class="number">2</span><br /><span class="text">Attend 7 days Demo class</span></h3>
                      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                  </div><!--//step-->
                  <div class="step text-center col-md-4 col-sm-4 col-xs-12">
-                     <h3 class="title"><span class="number">3</span><br /><span class="text">Start building ipsum</span></h3>
+                     <h3 class="title"><span class="number">3</span><br /><span class="text">Join a Course</span></h3>
                      <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
                  </div><!--//step-->
             </div><!--//row-->

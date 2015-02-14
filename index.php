@@ -61,13 +61,16 @@
         <section id="why" class="section why">
             <div class="container">
                 <h2 class="title text-center">How Can TodFodCode Help You?</h2>
-                <p class="intro text-center">We take care of building you designing, development, coding and testing skills as software Engineer</p>
+                <p class="intro text-center">We take care of building a wide range of concepts and coding tools to single handedly design, develop and deploy web applications.</p>
                 <div class="row item">
                     <div class="content col-md-4 col-sm-12 col-xs-12">
-                        <h3 class="title">Save you time and effort</h3>
+                        <h3 class="title">Who are we?</h3>
                         <div class="desc">
-                            <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
-                            <p>The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
+                            <p>// तोड़ // फोड़ { Code is an initiative to help people learn to code their own webapp. 
+                            Coding is a way of life which widens the horizons of success in life. 
+                            We at // तोड़ // फोड़ { Code we are committed to deliver a well structured coaching to our students. 
+                            We promise to provide an industrial experience to our trainees, 
+                            with live individual projects which starts from the day one and learn as you work to make your dream webapp.</p>
                         </div>
                         <div class="quote">
                             <div class="quote-profile">
@@ -80,7 +83,7 @@
                         </div><!--//quote-->                        
                     </div><!--//content-->
                     <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                        <table id="upcoming_batches" class="display" cellspacing="0" width="100%">
+                        <!-- <table id="upcoming_batches" class="display" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
                                     <th>Sr. No.</th> 
@@ -125,20 +128,22 @@
                                     <td> Max 30 </td>
                                 </tr>
                             </tbody>
-                        </table>
+                        </table> -->
 
-                        <img class="img-responsive" src="assets/images/figures/figure-1.png" alt="" />
-                        <figcaption class="figure-caption">(Screenshot: Coral - App &amp; website startup kit) </figcaption>
+                        <img class="img-responsive" src="assets/images/figures/todfodcode.jpg" alt="" />
+                        <figcaption class="figure-caption">(todfodcode.com Logo Image) </figcaption>
                     </figure>
                 </div><!--//item-->
                 
                 <div class="row item">
                     <div class="content col-md-4 col-sm-12 col-xs-12 col-md-push-8 col-sm-push-0 col-xs-push-0">
-                        <h3 class="title">Works across all devices</h3>
+                        <h3 class="title">How can we help you?</h3>
                         <div class="desc">
-                            <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
-                            <p>The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
-                            <p><i class="fa fa-download"></i> <a href="download.html">Download mobile versions</a></p>
+                            <p>//तोड़ //फोड़ {Code is an initiative to help people learn to code their own webapp. 
+                            Coding is a way of life which widens the horizons of success in life. 
+                            We at // तोड़ // फोड़ { Code we are committed to deliver a well structured coaching to our students. 
+                            We promise to provide an industrial experience to our trainees, 
+                            with live individual projects which starts from the day one.</p>
                         </div>
                         
                         <div class="quote">
@@ -152,7 +157,7 @@
                         </div><!--//quote-->                        
                     </div><!--//content-->
                     <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-pull-4 col-sm-pull-0 col-xs-pull-0">
-                        <img class="img-responsive" src="assets/images/figures/figure-2.png" alt="" />
+                        <img class="img-responsive" src="assets/images/figures/Agile_Project_Management_by_Planbox.jpg" alt="" />
                         <div class="control text-center">
                             <button type="button" class="play-trigger" data-toggle="modal" data-target="#modal-video"><i class="fa fa-play"></i></button>                    
                         </div><!--//control-->
@@ -161,10 +166,14 @@
                 
                 <div class="row item ">
                     <div class="content col-md-4 col-sm-12 col-xs-12">
-                        <h3 class="title">Easy to customise</h3>
+                        <h3 class="title">Make your Dream Web app</h3>
                         <div class="desc">
-                            <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
-                            <p>The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
+                            <p>During the course of your training with us, we’ll help you build your own dream web app. 
+                            All required resources will be provided by us during the training period. 
+                            All necessary skills for making it happen will be included in the course. </p>
+                            <p>You can either decide on your Idea for an awesome webapp that you want to dedicate 
+                            to this world or we will provide you an challenging 
+                            Idea that you can use to build an webapp and let the world witness your success. </p>
                         </div>
                         <div class="quote">
                             <div class="quote-profile">
@@ -177,13 +186,13 @@
                         </div><!--//quote-->                        
                     </div><!--//content-->
                     <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                        <img class="img-responsive" src="assets/images/figures/figure-3.png" alt="" />
-                        <figcaption class="figure-caption">(Screenshot: <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/?ref=3wm" target="_blank">Tempo - Bootstrap template for startups)</a> </figcaption>
+                        <img class="img-responsive" src="assets/images/figures/webapp.jpg" alt="" />
+                        <figcaption class="figure-caption">(Awesome Programming Opportunity) </figcaption>
 
                     </figure>
                 </div><!--//item-->
                 
-                <div class="row item last-item">
+                <!-- <div class="row item last-item">
                     <div class="content col-md-4 col-sm-12 col-xs-12 col-md-push-8 col-sm-push-0 col-xs-push-0">
                         <h3 class="title">Connect your users</h3>
                         <div class="desc">
@@ -195,22 +204,26 @@
                         <div class="quote">
                             <div class="quote-profile">
                                 <img class="img-responsive img-circle" src="assets/images/people/profile-s-4.png" alt="" />
-                            </div><!--//profile-->
-                            <div class="quote-content">
+                            </div> -->
+                            <!--//profile-->
+                            <!-- <div class="quote-content">
                                 <blockquote><p>I can connect to like-minded people lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></blockquote>
                                 <p class="source">@JackT, San Francisco</p>
-                            </div><!--//quote-content-->
-                        </div><!--//quote-->
-                    </div><!--//content-->
-                    <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-pull-4 col-sm-pull-0 col-xs-pull-0">
+                            </div> -->
+                            <!--//quote-content-->
+                        <!-- </div> -->
+                        <!--//quote-->
+                    <!-- </div> -->
+                    <!--//content-->
+                    <!-- <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-pull-4 col-sm-pull-0 col-xs-pull-0">
                         <img class="img-responsive" src="assets/images/figures/figure-4.png" alt="" />
                     </figure>
-                </div><!--//item-->
+                </div> --><!--//item-->
                 
                 
                 <div class="feature-lead text-center">
-                    <h4 class="title">Want to discover all the features?</h4>
-                    <p><a class="btn btn-cta btn-cta-secondary" href="features.html">Take a Tour</a></p>
+                    <h4 class="title">Registor with us for a free demo class?</h4>
+                    <p><a class="btn btn-cta btn-cta-secondary" href="features.html">Registor Now</a></p>
                 </div>
             </div><!--//container-->
         </section><!--//why-->  
