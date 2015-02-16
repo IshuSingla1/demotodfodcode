@@ -57,18 +57,64 @@
                                 <figcaption class="info">
                                     <span class="name">Rahul Lahoria</span>
                                     <br />
-                                    <span class="job-title">Co-Founder</span>
+                                    <span class="job-title"> </span>
                                     
                                 </figcaption>
                             </figure><!--//profile-->
                             <div class="social">
                                 <ul class="social-list list-inline">
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="http://in.linkedin.com/pub/rahul-lahoria/93/439/362"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://twitter.com/rahul_lahoria"><i class="fa fa-twitter"></i></a></li>
                                 </ul><!--//social-list-->
                             </div><!--//social-->
                         </div><!--//member-inner-->
                     </div><!--//member-->
+                    
+                    <div class="member col-md-8 col-sm-12 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile"><br/>
+                                Rahul (IIT Kgp) is the Founder of D^4 and a true blue programmer with a zeal for teaching. 
+                                He’s passionate about the limitless possibilities that well written Software programs offer to make the world a better place to live in, literally. 
+                                An efficiency freak, he’s obsessed about developing software which is not only efficient at what 
+                                it is meant to do but also to run computationally exhaustive software over less computational devices. 
+                                Rahul holds a Masters Degree in IT from Indian Institute of Technology, Kharagpur.<br/><br/>
+                            </figure><!--//profile-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+			    </div><!--//team row -->
+					
+					
+				<div class="team row">
+                    <div class="member col-md-4 col-sm-6 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile">
+                                <img class="img-responsive" src="assets/images/team/pic2.jpg" alt=""/>
+                                <figcaption class="info"><span class="name">Neeraj Sharma</span><br /><span class="job-title"> </span></figcaption>
+                            </figure><!--//profile-->
+                            <div class="social">
+                                <ul class="social-list list-inline">
+                                    <li><a href="https://in.linkedin.com/in/neerajdexter"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://twitter.com/neerajdexter"><i class="fa fa-twitter"></i></a></li>
+                                </ul><!--//social-list-->
+                            </div><!--//social-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                    
+					<div class="member col-md-8 col-sm-12 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile"><br/>
+                                Neeraj Sharma is the Co-founder and a skilled and avid problem solver. 
+                                An icon in his field with a knack of simplifying the most complicated of subject matter and 
+                                impart quality education irrespective of prior academic background. 
+                                He has always had a flair for scientific innovation. 
+                                Neeraj draws his inspiration from real life issues and has a knack of finding ways to solve them, 
+                                always up for a challenge, a quality which served him well while his short stint with the DRDO team.<br/><br/>
+                            </figure><!--//profile-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                   </div><!--//team row -->
+                
+                   <div class="team row">
                     <div class="member col-md-4 col-sm-6 col-xs-12">
                         <div class="member-inner">
                             <figure class="profile">
@@ -76,85 +122,68 @@
                                 <figcaption class="info">
                                     <span class="name">Rajnish Kumar</span>
                                     <br />
-                                    <span class="job-title">Co-Founder</span></figcaption>
+                                    <span class="job-title"> </span></figcaption>
                             </figure><!--//profile-->
                             <div class="social">
                                 <ul class="social-list list-inline">
                                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://twitter.com/rajnish90"><i class="fa fa-twitter"></i></a></li>
                                 </ul><!--//social-list-->
                             </div><!--//social-->
                         </div><!--//member-inner-->
                     </div><!--//member-->
+
+					<div class="member col-md-8 col-sm-12 col-xs-12">
+                        <div class="member-inner">
+                            <figure class="profile"><br/>
+								Rajnish Kumar, the Lead Developer holds a Masters degree in Computer Science Engineering. 
+								Everywhere Rajnish look, he’s faced with a marketplace saturated with generic website companies full of slang and 
+								empty stipulation. In sync with D^4’s principles, he thinks the consumer deserves better and 
+								wants to “be the change he wants to see”.<br/><br/>
+                            </figure><!--//profile-->
+                        </div><!--//member-inner-->
+                    </div><!--//member-->
+                   </div><!--//team row -->
+
+
+                    
+                    <div class="team row">
                     <div class="member col-md-4 col-sm-6 col-xs-12">
                         <div class="member-inner">
                             <figure class="profile">
-                                <img class="img-responsive" src="assets/images/team/member-3.png" alt=""/>
-                                <figcaption class="info"><span class="name">Anna Perry</span><br /><span class="job-title">Product/UX Designer</span></figcaption>
+                                <img class="img-responsive" src="assets/images/team/pic4.jpg" alt=""/>
+                                <figcaption class="info"><span class="name">Anil Kumar</span><br /><span class="job-title"> </span></figcaption>
                             </figure><!--//profile-->
                             <div class="social">
                                 <ul class="social-list list-inline">
                                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                 </ul><!--//social-list-->
                             </div><!--//social-->
                         </div><!--//member-inner-->
                     </div><!--//member-->
-                    <div class="member col-md-4 col-sm-6 col-xs-12">
+
+					<div class="member col-md-8 col-sm-12 col-xs-12">
                         <div class="member-inner">
-                            <figure class="profile">
-                                <img class="img-responsive" src="assets/images/team/member-4.png" alt=""/>
-                                <figcaption class="info"><span class="name">Tim Robertson</span><br /><span class="job-title">Back-end Developer</span></figcaption>
+                            <figure class="profile"><br/>
+								Anil Kumar is the Designer. A Biotechnology Engineer by qualification,he has great love for 
+								designing and an appreciation for all things artistic. 
+								He’s the creative mind behind the teams designs and draws inspiration from the ideas 
+								which the client comes with and crafts it to perfection.<br/><br/>
                             </figure><!--//profile-->
-                            <div class="social">
-                                <ul class="social-list list-inline">
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-                                </ul><!--//social-list-->
-                            </div><!--//social-->
                         </div><!--//member-inner-->
                     </div><!--//member-->
-                    <div class="member col-md-4 col-sm-6 col-xs-12">
-                        <div class="member-inner">
-                            <figure class="profile">
-                                <img class="img-responsive" src="assets/images/team/member-5.png" alt=""/>
-                                <figcaption class="info"><span class="name">Rachel Wu</span><br /><span class="job-title">Front-end Developer</span></figcaption>
-                            </figure><!--//profile-->
-                            <div class="social">
-                                <ul class="social-list list-inline">
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-                                </ul><!--//social-list-->
-                            </div><!--//social-->
-                        </div><!--//member-inner-->
-                    </div><!--//member-->
-                    <div class="member col-md-4 col-sm-6 col-xs-12">
-                        <div class="member-inner">
-                            <figure class="profile">
-                                <img class="img-responsive" src="assets/images/team/member-6.png" alt=""/>
-                                <figcaption class="info"><span class="name">Carl Allison</span><br /><span class="job-title">Mobile Developer</span></figcaption>
-                            </figure><!--//profile-->
-                            <div class="social">
-                                <ul class="social-list list-inline">
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-                                </ul><!--//social-list-->
-                            </div><!--//social-->
-                        </div><!--//member-inner-->
-                    </div><!--//member-->
-                </div><!--//team-->
+				</div><!--//team row -->
+			</div><!--//team-->
+
                 <div class="press-kit text-center">
                     <h3 class="title">Our Aim</h3>
                     <p>// तोड़  // फोड़  {  Code caters to all individuals ranging from beginner level computer user to the IT professional. // तोड़  // फोड़  {  Code’ s graduate students are prepared to take on the challenges they will face in today’s job market. We endeavor to make our students employable in the field of Web Development, Database Designing, Software Development. Our emphasis is on Practical Approach, While in class students will work on a project that may actually be utilized by their company. In this way students will be prepared to apply what they learned in our classrooms directly to their work in the field.</p><br>   
                     <h3 class="title">Vision: Hands-On Approach</h3>
                     <p>We believe in concept of mutual understanding of two parties so that a good interaction would be grow between them. A demo class will be provided to students for their interaction to faculty and to understand why they are here and make a strong bond with faculty. Our student-instructor relationships ensure that no student’s time is wasted. Each student has ample opportunity within the class to get one-on-one instruction</p>
 
-                    <p>Please <a href="contact.html">contact us</a> if you need more materials.</p>
-                    <a class="btn btn-cta btn-cta-secondary" href="#">Download Press Kit</a>
+                    <p>Please <a href="contact.php">contact us</a> if you need more materials.</p>
+                <!--    <a class="btn btn-cta btn-cta-secondary" href="#">Download Press Kit</a>  -->
                 </div>
             </div><!--//story-container--> 
         </div><!--//container-->
