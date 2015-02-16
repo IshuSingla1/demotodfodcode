@@ -188,22 +188,48 @@
                                     <li><i class="fa fa-star"> Step 2:</i> Make a Bootable Disk
                                     <li><i class="fa fa-star"> Bootable Disk(CD/DVD):</i><br/>               
 										1. Insert a blank CD into your burner. A 'CD/DVD Creator', 'Choose Disc Type' or 'Blank Disc' window might pop up. Close this, because we will not be using it.<br/>
-									<!--<figure class="figure text-center">
-											<img class="img-responsive" src="assets/images/features/screenshot-1.png" alt="" />
-											<figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
-										</figure>
-									-->
+									<br/>
+									<figure class="figure text-center">
+										<img class="img-responsive" src="assets/images/features/image-burnadvdonubuntu-1.jpg" alt="" />
+										<figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+									</figure>
+									
 										2. Right click on the ISO file and choose 'Write to Disc'.<br/>
+									<br/>
+									<figure class="figure text-center">
+										<img class="img-responsive" src="assets/images/features/image-burnadvdonubuntu-2.jpg" alt="" />
+										<figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+									</figure>
 										3. Where it says 'Write disc to', you might have options such as 'File image' as well as your CD drive. Choose your CD drive. Your CD drive might show as something like 'BD-MLT UJ-210S'.<br/>
+									<br/>
+									<figure class="figure text-center">
+										<img class="img-responsive" src="assets/images/features/image-burnadvdonubuntu-3.jpg" alt="" />
+										<figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+									</figure>
 										4. Select the write speed. If you are burning an Ubuntu Live CD (one that you may want to start your computer up from), it is recommended that you write at the lowest possible speed.<br/>
 										5. After burning is completed, verify that your CD contains multiple files and folders and not just the ISO file. This way you will know the process was completed correctly.<br/>
 
 									<li><i class="fa fa-star"> Bootable Pen Drive:</i><br/>
 										1. Insert a USB stick with at least 2GB of free space.<br/>
 										2. Open the dash and search for Startup Disk Creator.<br/>
+									<br/>
+									<figure class="figure text-center">
+										<img class="img-responsive" src="assets/images/features/image-createausbstickonubuntu-1.jpg" alt="" />
+										<figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+									</figure>
 										3. Select the Startup Disk Creator to launch the app.<br/>
 										4. Click 'Other' to choose the downloaded ISO file.<br/>             
 										5. Select the file and click 'Open'.<br/>
+									<br/>
+									<figure class="figure text-center">
+										<img class="img-responsive" src="assets/images/features/image-createausbstickonubuntu-2.jpg" alt="" />
+										<figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+									</figure>
+									<br/>
+									<figure class="figure text-center">
+										<img class="img-responsive" src="assets/images/features/image-createausbstickonubuntu-3.jpg" alt="" />
+										<figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+									</figure>
 										6. That’s it! When the process completes, you’ll be ready to restart your computer and begin installing Ubuntu.<br/>
 								</ul>
                                 <blockquote>
