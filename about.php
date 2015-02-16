@@ -157,7 +157,7 @@
                             <div class="social">
                                 <ul class="social-list list-inline">
                                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://twitter.com/kumaranil8892"><i class="fa fa-twitter"></i></a></li>
                                 </ul><!--//social-list-->
                             </div><!--//social-->
                         </div><!--//member-inner-->
