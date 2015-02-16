@@ -40,9 +40,13 @@
         <div class="story-container container text-center"> 
             <div class="story-container-inner" >                    
                 <div class="about">
-                    <p>// तोड़  // फोड़  {  Code is a institute that cultivates future Web developers and designers. At // तोड़  // फोड़  {  Code , we are committed to delivering the latest know-how and the advanced techniques to our students.</p> 
-                    <p>Our course content includes every skill which requires to develop Web applications and interactive websites. We are concentrating on every library/ framework/ tool/ server which falls under Web development projects.</p>
-                    <blockquote class="belife">We at // तोड़  // फोड़  {  Code strongly believe that the heart and soul of any successful education venture are its esteemed teaching resources (faculty, professors, mentors and guide). The core of the successful pedagogy is knowledgeable Faculty Staff.</blockquote>               
+                    <p>// तोड़  // फोड़  {  Code is an institute that cultivates future Web developers and designers. 
+                    At // तोड़  // फोड़  {  Code , 
+                    we are committed to delivering the latest know-how and the advanced techniques to our students.</p> 
+                    <p>Our course content includes every skill which requires to develop Web applications and interactive websites. 
+                    We are concentrating on libraries, frameworks, tools and servers which falls under Web development projects.</p>
+                    <blockquote class="belife">We at // तोड़  // फोड़  {  Code strongly believe that the heart and soul of any successful education venture are its esteemed teaching resources (faculty, professors, mentors and guide). 
+                    The core of the successful pedagogy is knowledgeable Faculty Staff. </blockquote>               
                 </div><!--//about-->
                 <div class="team row">
                     <h3 class="title">Meet the team</h3>

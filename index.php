@@ -227,7 +227,7 @@
                 </div>
             </div><!--//container-->
         </section><!--//why-->  
-        
+        <?php /*
         <!-- ******Testimonials Section****** -->
         <section class="section testimonials">
             <div class="container">
@@ -272,7 +272,7 @@
                     </div><!--//carousel-inner-->
                     
                 </div><!--//carousel-->
-            </div><!--//container-->
+            </div>//container
         </section><!--//testimonials-->          
         
         <!-- ******Press Section****** -->
@@ -303,13 +303,13 @@
                
             </div><!--//container-->
         </section><!--//press-->
-        
+        */ ?>
         <!-- ******CTA Section****** -->
         <section id="cta-section" class="section cta-section text-center home-cta-section">
             <div class="container">
-               <h2 class="title">Ready to promote your product online?</h2>
-               <p class="intro">More than <span class="counting">300,000</span> users are using Velocity</p>
-               <p><a class="btn btn-cta btn-cta-primary" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">Get Velocity Now</a></p>
+               <h2 class="title">Ready go!</h2>
+               <p class="intro">More than <span class="counting">30</span> upcoming Batches</p>
+               <p><a class="btn btn-cta btn-cta-primary" href="features.php" target="_blank">Have look over courses</a></p>
             </div><!--//container-->
         </section><!--//cta-section-->
         
