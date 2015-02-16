@@ -61,7 +61,11 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div class="tab-pane fade in active" id="feature-1">
-                            <h3 class="title sr-only">Demo Class</h3>                                    
+                            <h3 class="title sr-only">Demo Class</h3> 
+                            <p>This Job Oriented Course is designed to help strengthen your candidature for 
+                            Web Development Industry.</p>
+                            <P>We are providing a free Kick off Demo Week to people who planning and willing to be Web Developers. 
+In this week long workshop beginners will be trained to be</P>                                    
                             <!-- <figure class="figure text-center">
                                 <img class="img-responsive" src="assets/images/features/screenshot-1.png" alt="" />
                                 <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
@@ -126,6 +130,9 @@ Showcase your Webapp & Rewards<br/>
                                     <li><i class="fa fa-star"></i>Celebration for student success.</li>
                                 </ul>
                                 <blockquote>
+                                    <p>Course Duration: 3 Months<br/>
+    Timing: 7 Days/Week from 6 a.m. to 9 p.m.<br/>
+    Individual Course Fee: </p>
                                     <p>Note: The course content is not limited to as listed above.</p>
                                 </blockquote>
                             </div><!--//desc-->
