@@ -126,17 +126,12 @@
             
                         <div class="panel-collapse collapse" id="faq1">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                accusamus terry richardson ad squid. 3 wolf moon officia
-                                aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                sunt aliqua put a bird on it squid single-origin coffee
-                                nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                Leggings occaecat craft beer farm-to-table, raw denim
-                                aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.
+                                What sets // तोड़  // फोड़  {  Code apart from all the established institutes is the fact that 
+								the highly passionate and motivated Team of TodFodCode is a bunch of programmers and developers 
+								who are in sync with the industry and understand fully well what 
+								the students expect and demand from course and know how to deliver the same without making the 
+								exciting process of learning turn into a dull classroom lecture. <br/>
+								Take a free demo and discover the difference for yourself.
                             </div>
                         </div>
                     </div><!--//panel-->
@@ -150,17 +145,12 @@
             
                         <div class="panel-collapse collapse" id="faq2">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                accusamus terry richardson ad squid. 3 wolf moon officia
-                                aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                sunt aliqua put a bird on it squid single-origin coffee
-                                nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                Leggings occaecat craft beer farm-to-table, raw denim
-                                aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.
+                                What // तोड़  // फोड़  {  Code offers is not just another website/applications development course but 
+								a specially designed course which will cover all fundamentals about software development, 
+								database designing, design patterns and brainstorming to  come up with new possibilities and technologies. 
+								Here the course doesn’t only focus on learning but the key focus is also on employability. 
+								Cracking the competitive and dynamic job market requires a focus on soft-skills development. 
+								Being talented is not enough if you can’t impress your recruiter with your talent.
                             </div>
                         </div>
                     </div><!--//panel-->
@@ -174,17 +164,10 @@
             
                         <div class="panel-collapse collapse" id="faq3">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                accusamus terry richardson ad squid. 3 wolf moon officia
-                                aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                sunt aliqua put a bird on it squid single-origin coffee
-                                nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                Leggings occaecat craft beer farm-to-table, raw denim
-                                aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.
+								After attended a web development course from // तोड़  // फोड़  {  Code you will have a lot of skills to 
+								boast a vast skill set required by a website developer with hands on experience on every technology 
+								required to develop a Web App independently be it Front End Development, Back End Development, 
+								Database Design or all of them put together.
                             </div>
                         </div>
                     </div><!--//panel-->
@@ -198,17 +181,10 @@
             
                         <div class="panel-collapse collapse" id="faq4">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                accusamus terry richardson ad squid. 3 wolf moon officia
-                                aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                sunt aliqua put a bird on it squid single-origin coffee
-                                nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                Leggings occaecat craft beer farm-to-table, raw denim
-                                aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.
+								Surely, you would have your job letter on completion of complete course. 
+								We have collaboration with companies and consultancies. 
+								We will organise interview for you as till you placed. 
+								There will be evaluation of your interview, according to your result in interview.
                             </div>
                         </div>
                     </div><!--//panel--> 
@@ -222,17 +198,11 @@
             
                         <div class="panel-collapse collapse" id="faq5">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                accusamus terry richardson ad squid. 3 wolf moon officia
-                                aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                sunt aliqua put a bird on it squid single-origin coffee
-                                nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                Leggings occaecat craft beer farm-to-table, raw denim
-                                aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.
+                                No, firstly you have to remove ‘fear of job’ from your mind. 
+                                Cracking interview is included in our corse. 
+                                You will be prepared for interview at end of course. 
+                                So, you don’t be worry about job. If you prepare well yourself with concentration and active while teaching. 
+                                Surely then are one step behind from your job. Get up and crack interview.
                             </div>
                         </div>
                     </div><!--//panel-->
@@ -246,18 +216,10 @@
             
                         <div class="panel-collapse collapse" id="faq6">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                accusamus terry richardson ad squid. 3 wolf moon officia
-                                aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                sunt aliqua put a bird on it squid single-origin coffee
-                                nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                Leggings occaecat craft beer farm-to-table, raw denim
-                                aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.
-                            </div>
+								Currently // तोड़  // फोड़  {  Code? have only one branch that is in bangalore. 
+								But you can follow us on our website http://todfodcode.com and http://collap.com for 
+								latest notes, problems and students projects.
+	                        </div>
                         </div>
                     </div><!--//panel-->
                     
@@ -270,17 +232,9 @@
             
                         <div class="panel-collapse collapse" id="faq7">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                accusamus terry richardson ad squid. 3 wolf moon officia
-                                aute, non cupidatat skateboard dolor brunch. Food truck
-                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                sunt aliqua put a bird on it squid single-origin coffee
-                                nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                Leggings occaecat craft beer farm-to-table, raw denim
-                                aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.
+                            The course content is currently provided at a very meager fees. 
+                            This fees is also charged after you complete 1 week free Demo classes. 
+                            You pay for what you experience during the Demo classes.
                             </div>
                         </div>
                     </div><!--//panel-->

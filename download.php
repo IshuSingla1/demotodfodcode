@@ -68,10 +68,158 @@
                     <div class="phone-holder">
                         <img class="screenshot" src="assets/images/mobile/screenshot.png" alt="" />
                     </div><!--//phone-holder--> 
-                </div><!--//phone-holder-wrapper-->               
+                </div><!--//phone-holder-wrapper-->         
             </div><!--//row-->        
         </div><!--//container-->
     </section><!--//feature-video--> 
+
+
+	<!-- ******Features Section as courses****** -->       
+    <section class="features-tabbed section">
+        <div class="container">
+            <h2 class="title text-center">Downloads</h2>
+            <div class="row">
+                <div class=" text-center col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs text-center" role="tablist">
+                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-cloud-upload"></i><br /><span class="hidden-sm hidden-xs">LAMP</span></a></li>
+                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i><br /><span class="hidden-sm hidden-xs">WAMP</span></a></li>
+                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-photo"></i><br /><span class="hidden-sm hidden-xs">PHPMYADMIN</span></a></li>
+                        <li class="last"><a href="#feature-4" role="tab" data-toggle="tab"><i class="fa fa-users"></i><br /><span class="hidden-sm hidden-xs">Ubuntu</span></a></li>
+                    </ul><!--//nav-tabs-->
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="feature-1">
+                            <h3 class="title sr-only">LAMP</h3> 
+                            <p> To Install LAMP(Linux Apache, MySQL, PHP) in a Linux Machine Open your terminal and run the following commands</p>
+                            <!-- <figure class="figure text-center">
+                                <img class="img-responsive" src="assets/images/features/screenshot-1.png" alt="" />
+                                <figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+                            </figure> -->
+                            <div class="desc text-left">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-star"></i><b> Ubuntu</b><br/>
+									Step 1: Upgrade Existing Libraries:<br />
+									<pre>sudo apt-get update<br />sudo apt-get upgrade</pre>
+									
+									Step 2: Install Apache
+									<pre>sudo apt-get install apache2</pre>
+									Step 3: Install MySQL<br />
+										<pre>sudo apt-get install mysql-server</pre>
+									Step 4: Install PHP<br />
+										<pre>sudo apt-get install php5 libapache2-mod-php5</pre>
+									Step 5: Restart Server<br />
+										<pre>sudo /etc/init.d/apache2 restart</pre>
+									Step 6: Check Apache: open terminal and open url<br />
+										<pre>http://127.0.0.1</pre>
+									Step 7: Check PHP<br />
+									<pre>php -r 'echo "\n\nWoohoo!! I have installed php.\n\n\n";'</pre> 
+
+                                   <li><i class="fa fa-star"></i><b> Fedora</b><br/>
+									Step 1: Upgrade Existing Libraries:<br/>
+									<pre>yum update</pre>
+									Step 2: Install Apache<br/>
+										<pre>sudo yum install httpd</pre>
+									Step 3: Install MySQL<br/>
+									<pre>sudo yum install mysql mysql-server<br/>sudo service mysqld start</pre>
+									Step 4: Set MySQL root password<br/>
+									<pre>sudo /usr/bin/mysql_secure_installation</pre>
+									Step 5: Install PHP<br/>
+										<pre>sudo yum install php php-mysql</pre>
+									Step 6: Restart Server<br/>
+										<pre>sudo service httpd restart</pre>
+									Step 7: Check Apache: open terminal and open url<br/>
+										<pre>http://127.0.0.1</pre>
+									Step 8: Check PHP<br/>
+									<pre>php -r 'echo "\n\nWoohoo!! I have installed php.\n\n\n";'</pre>
+                                   
+                                </ul>
+                                <blockquote>
+                                    <p>Note: The course content is not limited to as listed above.</p>
+                                </blockquote>
+                            </div><!--//desc-->
+                        </div><!--//tab-pane-->
+                        <div class="tab-pane" id="feature-2">
+                            <h3 class="title sr-only">WAMP</h3>
+                               <p>WAMP(Windows Apache, MySQL, PHP)  WampServer is shipped with these applications Apache, MySQL PHP and phpMyAdmin</p>
+                            <div class="desc text-left">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-star"></i><b> Download Wampserver (32 bits & PHP 5.5) 2.5</b><br/>
+<pre>http://sourceforge.net/projects/wampserver/files/WampServer%202/Wampserver%202.5/wampserver2.5-Apache-2.4.9-Mysql-5.6.17-php5.5.12-32b.exe/download</pre>
+									<li><i class="fa fa-star"></i><b> Download Wampserver (64 bits & PHP 5.5) 2.5</b><br/>
+<pre>http://sourceforge.net/projects/wampserver/files/WampServer%202/Wampserver%202.5/wampserver2.5-Apache-2.4.9-Mysql-5.6.17-php5.5.12-64b.exe/download</pre>
+								</ul>
+							</div>
+                        </div><!--//tab-pane-->
+                        <div class="tab-pane" id="feature-3">
+                            <h3 class="title sr-only">phpmyadmin</h3>                                    
+                             <div class="desc text-left">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-star"> Ubuntu</i></li>
+                                    Step 1: Upgrade Existing Libraries:<br/>
+									<pre>sudo apt-get update<br/>sudo apt-get upgrade </pre>
+										Step 2: Install phpmyadmin<br/>
+									<pre>sudo apt-get install phpmyadmin</pre>
+									Step 3: To set up under Apache all you need to do is include the following line in /etc/apache2/apache2.conf. <br/>
+										<pre>Include /etc/phpmyadmin/apache.conf</pre>pre>
+									Step 4: Check phpMyAdmin, Go to the url and login with the username and passwords entered during installation:<br/>
+										<pre>http://127.0.0.1/phpmyadmin</pre>
+                                    <li><i class="fa fa-star"> Fedora</i></li>
+											Step 1: Upgrade Existing Libraries:<br/>
+									<pre>yum -y update</pre>
+										Step 2: Install phpmyadmin<br/>
+									<pre>yum -y install phpmyadmin</pre>
+									Step 3: Check phpMyAdmin, Go to the url and login with the username and passwords entered during installation:<br/>
+										<pre>http://127.0.0.1/phpmyadmin</pre>
+                                    </ul>
+                                
+                                <blockquote>
+                                    <p>Note: The course content is not limited to as listed above.</p>
+                                </blockquote>
+                                
+                            </div><!--//desc-->
+                        </div><!--//tab-pane-->
+                        <div class="tab-pane" id="feature-4">
+                            <h3 class="title sr-only">Ubuntu</h3>
+                            <div class="desc text-left">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-star"> Step 1:</i> Go to http://www.ubuntu.com/download/desktop and download the ISO file relevent to your procssor.
+                                    <li><i class="fa fa-star"> Step 2:</i> Make a Bootable Disk
+                                    <li><i class="fa fa-star"> Bootable Disk(CD/DVD):</i><br/>               
+										1. Insert a blank CD into your burner. A 'CD/DVD Creator', 'Choose Disc Type' or 'Blank Disc' window might pop up. Close this, because we will not be using it.<br/>
+									<!--<figure class="figure text-center">
+											<img class="img-responsive" src="assets/images/features/screenshot-1.png" alt="" />
+											<figcaption class="figure-caption">(Screenshot source: Coral - App &amp; website startup kit)</figcaption>
+										</figure>
+									-->
+										2. Right click on the ISO file and choose 'Write to Disc'.<br/>
+										3. Where it says 'Write disc to', you might have options such as 'File image' as well as your CD drive. Choose your CD drive. Your CD drive might show as something like 'BD-MLT UJ-210S'.<br/>
+										4. Select the write speed. If you are burning an Ubuntu Live CD (one that you may want to start your computer up from), it is recommended that you write at the lowest possible speed.<br/>
+										5. After burning is completed, verify that your CD contains multiple files and folders and not just the ISO file. This way you will know the process was completed correctly.<br/>
+
+									<li><i class="fa fa-star"> Bootable Pen Drive:</i><br/>
+										1. Insert a USB stick with at least 2GB of free space.<br/>
+										2. Open the dash and search for Startup Disk Creator.<br/>
+										3. Select the Startup Disk Creator to launch the app.<br/>
+										4. Click 'Other' to choose the downloaded ISO file.<br/>             
+										5. Select the file and click 'Open'.<br/>
+										6. That’s it! When the process completes, you’ll be ready to restart your computer and begin installing Ubuntu.<br/>
+								</ul>
+                                <blockquote>
+                                    <p>Note: The course content is not limited to as listed above.</p>
+                                </blockquote>
+                            </div><!--//desc-->                                    
+                        </div><!--//tab-pane-->
+                        
+                    </div><!--//tab-content-->
+                </div><!--//col-md-x-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//features-tabbed-->
+
+
+
 
 
     <!-- ******FOOTER****** --> 
