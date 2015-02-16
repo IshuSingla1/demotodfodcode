@@ -25,6 +25,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
 </head> 
 
 <body class="signup-page access-page has-full-screen-bg">
@@ -41,22 +42,55 @@
                             <h2 class="title text-center">Sign up now</h2>  
                             <p class="intro text-center">It only takes 3 minutes!</p>               
                             <div class="row">
-                                <div class="form-container col-md-5 col-sm-12 col-xs-12">
-                                    <form class="signup-form">                
+								<div class='alert_placeholder'></div>
+                                <div class="form-container col-md-12 col-sm-12 col-xs-12">
+									<div class="row">
+										<div class='col-md-6'>
+										<div class="form-group email">
+                                            <label class="sr-only" for="signup-email">First Name</label>
+                                            <input id="signup_firstname" type="text" class="form-control login-email" onkeyup="nospaces(this)" placeholder="Your first name">
+                                        </div></div>
+                                        <div class='col-md-6'>
+                                        <div class="form-group email">  
+                                            <label class="sr-only" for="signup-email">Last Name</label>
+                                            <input id="signup_lastname" type="text" class="form-control login-email" onkeyup="nospaces(this)" placeholder="Your last name">
+                                        </div></div>
+                                    </div>
+                                    <div class="row">
+										<div class='col-md-6'>    
+                                        <div class="form-group email">
+                                            <label class="sr-only" for="signup-email">Username</label>
+                                            <input id="signup_username" type="text" class="form-control login-email" onkeyup="nospaces(this)" placeholder="Enter username" onblur="username_availability_check();">
+											<span id="status_username"></span>
+                                        </div></div>
+                                        <div class='col-md-6'>
+										<div class="form-group email">
+                                            <label class="sr-only" for="signup-email">Phone No.</label>
+                                            <input id="signup_phone" type="text" class="form-control login-email" onkeyup="nospaces(this)" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" placeholder="Phone number">
+                                        </div></div>
+                                    </div>
                                         <div class="form-group email">
                                             <label class="sr-only" for="signup-email">Your email</label>
-                                            <input id="signup-email" type="email" class="form-control login-email" placeholder="Your email">
-                                        </div><!--//form-group-->
+                                            <input id="signup_email" type="email" class="form-control login-email" onkeyup="nospaces(this)" placeholder="Your email" onblur="email_availability_check();">
+											<span id="status_email"></span>
+                                        </div>
+                                    <div class="row">
+										<div class='col-md-6'>                                        
                                         <div class="form-group password">
                                             <label class="sr-only" for="signup-password">Your password</label>
-                                            <input id="signup-password" type="password" class="form-control login-password" placeholder="Password">
-                                        </div><!--//form-group-->
-                                        <button type="submit" class="btn btn-block btn-cta-primary">Sign up</button>
+                                            <input id="signup_password" type="password" class="form-control login-password" onkeyup="nospaces(this)" placeholder="Password">
+                                        </div></div>
+                                        <div class='col-md-6'>
+                                        <div class="form-group password">
+                                            <label class="sr-only" for="signup-password">Confirm Your password</label>
+                                            <input id="signup_passwordrepeat" type="password" class="form-control login-password" onkeyup="nospaces(this)" placeholder="Repeat password">
+                                        </div></div>
+                                    </div>
+                                        <button type="submit" class="btn btn-cta-primary" onclick="signUp();">Sign up</button>
                                         <p class="note">By signing up, you agree to our terms of services and privacy policy.</p>
                                         <p class="lead">Already have an account? <a class="login-link" id="login-link" href="login.html">Log in</a></p>  
-                                    </form>
                                 </div><!--//form-container-->
-                                <div class="social-btns col-md-5 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-sm-offset-0">  
+                             <!--   <div class="social-btns col-md-5 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-sm-offset-0">  
                                     <div class="divider"><span>Or</span></div>                      
                                     <ul class="list-unstyled social-login">
                                         <li><button class="twitter-btn btn" type="button"><i class="fa fa-twitter"></i>Sign up with Twitter</button></li>
@@ -65,7 +99,7 @@
                                         <li><button class="google-btn btn" type="button"><i class="fa fa-google-plus"></i>Sign up with Google</button></li>
                                     </ul>
                                     <p class="note">Don't worry, we won't post anything without your permission.</p>
-                                </div><!--//social-login-->
+                                </div>//social-login-->
                             </div><!--//row-->
                         </div><!--//form-box-inner-->
                     </div><!--//form-box-->
@@ -100,18 +134,16 @@
         </div><!--//config-wrapper-inner-->
     </div><!--//config-wrapper-->
  
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>          
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script> 
     <script type="text/javascript" src="assets/plugins/bootstrap-hover-dropdown.min.js"></script>
     <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
     <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script> 
     <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>  
     <script type="text/javascript" src="assets/js/main.js"></script>
-    
-            
+    <script type="text/javascript" src="assets/js/signupvalidation.js"></script> 
 </body>
 </html> 
 
