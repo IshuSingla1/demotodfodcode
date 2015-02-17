@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive website template for products</title>
+    <title>Downloads</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,13 +27,15 @@
     <![endif]-->
 </head> 
 
-<body class="download-page">   
+<body class="features-page">   
     <!-- ******HEADER****** --> 
     <?php require_once 'components/header.php' ?>
     
-    <div class="headline-bg">
+    <div class="headline-bg pricing-headline-bg">
     </div><!--//headline-bg-->      
     
+    <?php 
+    /*
     <!-- ******Apps Section****** --> 
     <section class="apps-section section section-on-bg">
         <div class="container">
@@ -72,12 +74,17 @@
             </div><!--//row-->        
         </div><!--//container-->
     </section><!--//feature-video--> 
-
+*/
+?>
 
 	<!-- ******Features Section as courses****** -->       
     <section class="features-tabbed section">
         <div class="container">
-            <h2 class="title text-center">Downloads</h2>
+			<section class="features-video section section-on-bg">
+				<div class="container text-center">          
+					<h2 class="title">Take a quick tour to Setting up the Factory<br/> Download</h2>
+				</div><!--//container-->
+			</section><!--//feature-video-->
             <div class="row">
                 <div class=" text-center col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
                     <!-- Nav tabs -->

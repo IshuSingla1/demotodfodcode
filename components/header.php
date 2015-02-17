@@ -16,12 +16,12 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item"><a href="index.php">Home</a></li>
-                        <li class="nav-item"><a href="features.php">Courses</a></li>
+                        <li class="nav-item"><a href="courses.php">Courses</a></li>
                         <!-- FAQ file added inplace pricing
                             <li class="nav-item"><a href="pricing.php">F.A.Q</a></li>
-                        -->
-                        <li class="nav-item"><a href="faq.php">Projects</a></li>
                         
+                        <li class="nav-item"><a href="faq.php">Projects</a></li>
+                        -->
                         <li class="nav-item"><a href="faq.php">F.A.Q</a></li>
                         <li class="nav-item"><a href="about.php">About Us</a></li>
                         <li class="nav-item"><a href="contact.php">Contact</a></li>

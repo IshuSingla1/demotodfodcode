@@ -7,9 +7,9 @@
                             <h3 class="title">About us</h3>
                             <ul class="list-unstyled">
                                 <li><a href="about.php"><i class="fa fa-caret-right"></i>Who we are</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Blog</a></li>
+                                <li><a href="http://collap.com/project.php?project_id=68" target="_blank"><i class="fa fa-caret-right"></i>Blog</a></li>
                                 <li><a href="#"><i class="fa fa-caret-right"></i>Jobs</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Contact us</a></li>
+                                <li><a href="contact.php"><i class="fa fa-caret-right"></i>Contact us</a></li>
                             </ul>
                         </div><!--//footer-col-inner-->
                     </div><!--//foooter-col-->    
@@ -37,7 +37,7 @@
                         </div><!--//footer-col-inner-->
                         <div class="footer-col links col-md-3 col-sm-4 col-xs-12 sm-break">
                         <div class="footer-col-inner">
-                            <h3 class="title">Contact Us</h3>
+                            <h3 class="title">Reach Us</h3>
                             <ul class="list-unstyled">
                                 <i class="fa fa-map-marker pull-left"></i>        
                                 <span class="adr-group pull-left">       
@@ -46,7 +46,7 @@
                                 <li><span class="postal-code">560103</span><br></li>
                                 <li><span class="country-name">India</span></li>
                                 <li><span class="tel"><i class="fa fa-phone"></i>0800 123 4567</span></li>
-                                <li></li><span class="email"><i class="fa fa-envelope-o"></i><a href="#">rahul_lahoria@yahoo.com</a></span></li>
+                                <li></li><span class="email"><i class="fa fa-envelope-o"></i><a href="#">todfodcode@gmail.com</a></span></li>
                                 </span>
                             </ul>
                         </div><!--//footer-col-inner-->            

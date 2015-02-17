@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive website template for products</title>
+    <title>Contact Us</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -89,7 +89,9 @@
         <section class="map-section section">
             <div class="container text-center">
                 <h2 class="title">How to find us</h2>
+             <!--
                 <p class="intro">Pellentesque efficitur lobortis massa eu sodales. Morbi eu ipsum euismod felis commodo porttitor quis sit amet leo. Sed lacinia eu ipsum sit amet tempus.</p>
+             -->
                 <div class="gmap-wrapper">
                     <div class="gmap" id="map"></div><!--//map-->
                 </div><!--//gmap-wrapper-->
@@ -99,9 +101,9 @@
         <!-- ******CTA Section****** -->
         <section id="cta-section" class="section cta-section text-center contact-cta-section">
             <div class="container">
-               <h2 class="title">Ready to promote your product online?</h2>
-               <p class="intro">More than <span class="counting">300,000</span> users are using Velocity</p>
-               <p><a class="btn btn-cta btn-cta-primary" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">Get Velocity Now</a></p>
+               <h2 class="title">Ready to promote your skills</h2>
+               <p class="intro"> <span class="counting"></span> Registor with us for a free demo class?</p>
+               <p><a class="btn btn-cta btn-cta-primary" href="signup.php" target="_blank">Register Now</a></p>
             </div><!--//container-->
         </section><!--//cta-section-->
 

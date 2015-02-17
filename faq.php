@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive website template for products</title>
+    <title>FAQ</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,8 +37,11 @@
     <!-- ******Pricing Section****** -->
     <section class="pricing section section-on-bg">
         <div class="container">
-            <h2 class="title text-center">30 day <span class="highlight">FREE</span> trial with all plans!</h2>
-            <p class="intro text-center">Our pricing is simple and you can cancel or change your plan at any time.</p>
+            <h2 class="title text-center">Get Ready for <span class="highlight">FREE </span>Kick off Demo Week</h2>
+            <p class="intro text-center"> In this week long workshop beginners will be trained to be.</p>
+             <div class="text-center"><a class="btn btn-cta btn-cta-primary" href="signup.php">Get Started - It's Free</a></div>
+        <?php
+        /*
              <div class="price-cols row">
                 <div class="items-wrapper col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
                     <div class="item price-1 col-md-4 col-sm-4 col-xs-12 text-center">
@@ -103,8 +106,10 @@
                             </div><!--//content-->
                         </div><!--//item-inner-->
                     </div><!--//item-->  
-                </div><!--//items-wrapper-->                   
+                </div><!--//items-wrapper-->                 
             </div><!--//row-->
+            */
+         ?>
         </div><!--//container-->
     </section><!--//pricing-->
     
@@ -243,18 +248,18 @@
             </div><!--//row-->
             <div class="contact-lead text-center">
                 <h4 class="title">Have more questions?</h4>
-                <a class="btn btn-cta btn-cta-secondary" href="contact.html">Get in touch</a>
+                <a class="btn btn-cta btn-cta-secondary" href="contact.php">Get in touch</a>
             </div>
         </div><!--//container-->        
     </section><!--//faq-->
     
-    <!-- ******CTA Section****** -->
+    <!-- ******CTA Section****** --
     <section id="cta-section" class="section cta-section text-center pricing-cta-section">
         <div class="container">
            <h2 class="title">More than <span class="counting">300,000</span> users are using Velocity</h2>
            <p class="intro">What are you waiting for?</p>
            <p><a class="btn btn-cta btn-cta-primary" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">Get Velocity Now</a></p>
-        </div><!--//container-->
+        </div><!--//container--
     </section><!--//cta-section-->
     
     <!-- ******FOOTER****** --> 

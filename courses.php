@@ -39,7 +39,7 @@
         <div class="container text-center">          
             <h2 class="title">Take a quick tour to see how it works</h2>
             <div class="video-container">
-                <iframe src="//player.vimeo.com/video/90299717?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="//player.vimeo.com/video/38007501?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div><!--//video-container--> 
         </div><!--//container-->
     </section><!--//feature-video-->
@@ -291,19 +291,16 @@ System Variable Index, Transaction Isolation Level Index</li>
             <div class="row">
                  <div class="step text-center col-md-4 col-sm-4 col-xs-12">
                      <h3 class="title"><span class="number">1</span><br /><span class="text">Registor for Demo class</span></h3>
-                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                  </div><!--//step-->
                  <div class="step text-center col-md-4 col-sm-4 col-xs-12">
                      <h3 class="title"><span class="number">2</span><br /><span class="text">Attend 7 days Demo class</span></h3>
-                     <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                  </div><!--//step-->
                  <div class="step text-center col-md-4 col-sm-4 col-xs-12">
                      <h3 class="title"><span class="number">3</span><br /><span class="text">Join a Course</span></h3>
-                     <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
                  </div><!--//step-->
             </div><!--//row-->
             
-            <div class="text-center"><a class="btn btn-cta btn-cta-primary" href="signup.html">Get Started - It's Free</a></div>
+            <div class="text-center"><a class="btn btn-cta btn-cta-primary" href="signup.php">Get Started - It's Free</a></div>
             
         </div><!--//container-->        
     </section><!--//steps-->

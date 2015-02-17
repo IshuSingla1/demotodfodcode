@@ -50,7 +50,7 @@
 
             <p class="intro">TodFodCode class are designed to help you <br /> promote your skills effectively to your target dream jobs</p>
 	    
-            <p><a class="btn btn-cta btn-cta-primary" href="signup.html">Register now</a></p>   
+            <p><a class="btn btn-cta btn-cta-primary" href="signup.php">Register now</a></p>   
             <button type="button" class="play-trigger btn-link " data-toggle="modal" data-target="#modal-video" ><i class="fa fa-youtube-play"></i> Watch the video</button>
         </div><!--//container-->
     </section><!--//promo-->
@@ -74,11 +74,11 @@
                         </div>
                         <div class="quote">
                             <div class="quote-profile">
-                                <img class="img-responsive img-circle" src="assets/images/people/profile-s-1.png" alt="" />
+                                <img class="img-responsive img-circle" src="assets/images/people/profile1-rajnish.jpg" alt="" />
                             </div><!--//profile-->
                             <div class="quote-content">
-                                <blockquote><p><a href="https://twitter.com/3rdwave_themes" target="_blank">@velocity</a> Love it! Thank you for making my life easier and saving me time! I’ll definitely recommend it to my friends. :)</p></blockquote>
-                                <p class="source">@LisaW, Bristol</p>
+                                <blockquote><p>Being with <a href="https://twitter.com/todfodcode" target="_blank">@todfodcode </a> members, a very enriching experience. Am taking back a lot of knowledge back with me and waiting for you:)</p></blockquote>
+                                <p class="source"><a href="https://twitter.com/rajnish90" target="_blank">@rajnish90</a>, Bangalore</p>
                             </div><!--//quote-content-->                                     
                         </div><!--//quote-->                        
                     </div><!--//content-->
@@ -148,11 +148,11 @@
                         
                         <div class="quote">
                             <div class="quote-profile">
-                                <img class="img-responsive img-circle" src="assets/images/people/profile-s-2.png" alt="" />
+                                <img class="img-responsive img-circle" src="assets/images/people/profile2-rahul.jpg" alt="" />
                             </div><!--//profile-->
                             <div class="quote-content">
-                                <blockquote><p>I find the mobile app very useful when I'm on the go. Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p></blockquote>
-                                <p class="source">@JackT, San Francisco</p>
+                                <blockquote><p> Todfodcode is not about courses, it is about learning how to code, approach to program, optimization of program</p></blockquote>
+                                <p class="source"><a href="https://twitter.com/rahul_lahoria" target="_blank">@rahul_lahoria</a></p>
                             </div><!--//quote-content-->         
                         </div><!--//quote-->                        
                     </div><!--//content-->
@@ -177,11 +177,11 @@
                         </div>
                         <div class="quote">
                             <div class="quote-profile">
-                                <img class="img-responsive img-circle" src="assets/images/people/profile-s-3.png" alt="" />
+                                <img class="img-responsive img-circle" src="assets/images/people/profile3-anil.jpg" alt="" />
                             </div><!--//profile-->
                             <div class="quote-content">
-                                <blockquote><p>Nice template! It’s practical and there is no gimmicks. Very easy to customise as well!</p></blockquote>
-                                <p class="source"><a href="#">@AlexD</a>, London</p>
+                                <blockquote><p>This is a whole new experience for me since i am there, its atmosphere, approach, <a href="about.php" target="_blank">staff</a>, nature and its a best place for learning </p></blockquote>
+                                <p class="source"><a href="https://twitter.com/kumaranil8892" target="_blank">@kumaranil8892</a>, Bangalore</p>
                             </div><!--//quote-content-->          
                         </div><!--//quote-->                        
                     </div><!--//content-->
@@ -223,7 +223,7 @@
                 
                 <div class="feature-lead text-center">
                     <h4 class="title">Registor with us for a free demo class?</h4>
-                    <p><a class="btn btn-cta btn-cta-secondary" href="features.html">Registor Now</a></p>
+                    <p><a class="btn btn-cta btn-cta-secondary" href="signup.php">Registor Now</a></p>
                 </div>
             </div><!--//container-->
         </section><!--//why-->  
@@ -309,7 +309,7 @@
             <div class="container">
                <h2 class="title">Ready go!</h2>
                <p class="intro">More than <span class="counting">30</span> upcoming Batches</p>
-               <p><a class="btn btn-cta btn-cta-primary" href="features.php" target="_blank">Have look over courses</a></p>
+               <p><a class="btn btn-cta btn-cta-primary" href="courses.php" target="_blank">Have look over courses</a></p>
             </div><!--//container-->
         </section><!--//cta-section-->
         
@@ -328,7 +328,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="video-container">
-                        <iframe id="vimeo-video" src="//player.vimeo.com/video/28872840?color=ffffff&amp;wmode=transparent" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                         <iframe id="vimeo-video" src="https://www.youtube.com/embed/MmfikLimeQ8" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe> 
                     </div><!--//video-container-->
                 </div><!--//modal-body-->
             </div><!--//modal-content-->
