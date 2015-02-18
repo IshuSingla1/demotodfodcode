@@ -43,7 +43,7 @@
                             <p class="intro text-center">It only takes 3 minutes!</p>               
                             <div class="row">
 								<div class='alert_placeholder'></div>
-                                <div class="form-container col-md-12 col-sm-12 col-xs-12">
+                                <div class="form-container col-md-12 col-sm-12 col-xs-12 " id='furtherInfo'>
 									<div class="row">
 										<div class='col-md-6'>
 										<div class="form-group email">

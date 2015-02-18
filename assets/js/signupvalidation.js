@@ -17,7 +17,14 @@ function replaceAll(find, replace, str) {
 		str = "";
 	return str.replace(new RegExp(find, 'g'), replace);
 }
-
+function validatePath(path) {
+	if (path.match("^[a-zA-Z0-9.]*$")) {
+		return true ;
+	}
+	else {
+		return false;
+	}
+ }
 function signUp() {
 	var firstname = $("#signup_firstname").val() ;
 	var lastname = $("#signup_lastname").val() ;
@@ -25,7 +32,7 @@ function signUp() {
 	var email = $("#signup_email").val() ;
 	var phone = $("#signup_phone").val() ;
 	var pass = $("#signup_password").val() ;
-	var pass2 = $("#signup_passwordrepeat").val() ;
+	var pass2 = $("#signup_passwordrepeat").val() ;	
 	if(pass != pass2) {
 		bootstrap_alert(".alert_placeholder", "Password do not match", 5000,"alert-success");
 		return false;
@@ -42,11 +49,11 @@ function signUp() {
 		bootstrap_alert(".alert_placeholder", "Username can not be empty", 5000,"alert-success");
 		return false;
 	}
-	else if(replaceAll('\\s', '',username).length < '6'){
-		bootstrap_alert(".alert-placeholder", "Username length should be atleast 6", 5000,"alert-warning");
+	else if(username.length < 6 && username.length > 20){
+		bootstrap_alert(".alert_placeholder", "Username length should be atleast 6 or atmost 20", 5000,"alert-warning");
 		return false;
 	}
-	else if(replaceAll('\\s', '',email) == ""){
+	else if(replaceAll('\\s', '',email) == "" ){
 		bootstrap_alert(".alert_placeholder", "Email can not be empty", 5000,"alert-success");
 		return false;
 	}
@@ -54,44 +61,43 @@ function signUp() {
 		bootstrap_alert(".alert_placeholder", "Phone number can not be empty", 5000,"alert-success");
 		return false;
 	}
-	else if(replaceAll('\\s', '',pass) == ""){
+	else if(pass == ""){
 		bootstrap_alert(".alert_placeholder", "Password can not be empty", 5000,"alert-success");
 		return false;
 	}
-	else if(replaceAll('\\s', '',pass).length < '6'){
-		bootstrap_alert(".alert-placeholder", "Password length should be atleast 6", 5000,"alert-warning");
+	else if(pass.length < 6 && pass.length > 20){
+		bootstrap_alert(".alert_placeholder", "Password length should be atleast 6 or atmost 20", 5000,"alert-warning");
 		return false;
 	}
-	else if(replaceAll('\\s', '',phone).length > '12'){
-		bootstrap_alert(".alert-placeholder", "Enter valid phone number", 5000,"alert-warning");
+	else if(phone.length > 12){
+		bootstrap_alert(".alert_placeholder", "Enter valid phone number", 5000,"alert-warning");
 		return false;
 	}
-	else if(replaceAll('\\s', '',phone).length < '10'){
-		bootstrap_alert(".alert-placeholder", "Enter valid phone number", 5000,"alert-warning");
+	else if(phone.length < 10){
+		bootstrap_alert(".alert_placeholder", "Enter valid phone number", 5000,"alert-warning");
 		return false;
 	} 
 	else if(replaceAll('\\s', '',pass2)==''){
-		bootstrap_alert(".alert-placeholder", "password can not be empty", 5000,"alert-warning");
+		bootstrap_alert(".alert_placeholder", "password can not be empty", 5000,"alert-warning");
 		return false;
 	}
-	else if(validatePath(firstname) !== 'true'){
-		bootstrap_alert(".alert-placeholder", "Special Characters are not allowed <br/> Only Alphabets and Numbers are allowed", 5000,"alert-warning");
+	else if(validatePath(firstname) != true){
+		bootstrap_alert(".alert_placeholder", "Special Characters are not allowed <br/> Only Alphabets and Numbers are allowed", 5000,"alert-warning");
 		return false;
 	}
-	else if(validatePath(username) !== 'true'){
-		bootstrap_alert(".alert-placeholder", "Special Characters are not allowed <br/> Only Alphabets and Numbers are allowed", 5000,"alert-warning");
+	else if(validatePath(username) != true){
+		bootstrap_alert(".alert_placeholder", "Special Characters are not allowed <br/> Only Alphabets and Numbers are allowed", 5000,"alert-warning");
 		return false;
 	}
-	else if(validatePath(lastname) !== 'true'){
-		bootstrap_alert(".alert-placeholder", "Special Characters are not allowed <br/> Only Alphabets and Numbers are allowed", 5000,"alert-warning");
+	else if(validatePath(lastname) !== true){
+		bootstrap_alert(".alert_placeholder", "Special Characters are not allowed <br/> Only Alphabets and Numbers are allowed", 5000,"alert-warning");
 		return false;
 	}
 	else if (validateEmail(email)==false) {
-        bootstrap_alert(".alert-placeholder", "Enter a valid email id", 5000,"alert-warning");       
+        bootstrap_alert(".alert_placeholder", "Enter a valid email id", 5000,"alert-warning");       
     }
     else {
-		var dataString = 'firstname='+ firstname + '&lastname='+ lastname + '&email='+ email  + '&username='+ username + '&password='+ pass + 
-							'&password2='+ pass2 ;
+		var dataString = 'firstname='+ firstname + '&lastname='+ lastname + '&phone=' + phone + '&email='+ email  + '&username='+ username + '&password='+ pass + '&password2='+ pass2 ;
 		$.ajax({
 			type: "POST",
 			url: "ajax/signup.php",
@@ -101,17 +107,120 @@ function signUp() {
 			success: function(result){
 				var notice = result.split("+") ;
 				if(notice['0'] == 'Registered Succcessfully'){
-					bootstrap_alert(".alert-placeholder", notice['0'], 5000,"alert-warning");
+					bootstrap_alert(".alert_placeholder", "First step is completed", 5000,"alert-warning");
+					var modal = "<label>Select Highest Qualification</label>" +
+								"<select class='form-control' id = 'heightestEducation'>" +
+									"<option value='0' selected>Default (none)</option>" +
+									"<option value='B.Tech'>B.Tech</option>" +
+									"<option value='B.A' >B.A.</option>" +
+									"<option value='B.Sc' >B.Sc.</option>" +
+									"<option value='B.com' >B.com.</option>" +
+									"<option value='M.Tech'>M.Tech</option>" +
+									"<option value='M.A' >M.A.</option>" +
+									"<option value='M.Sc' >M.Sc.</option>" +
+									"<option value='M.com' >M.com.</option>" +
+									"<option value='other' >Others</option>" +
+								"</select><br/>" +	
+								"<div class='form-group email'>" +
+                                     "<label class='sr-only' for='signup-email'>Collage Name</label>" +
+                                     "<input id='collageName' type='text' class='form-control login-email' placeholder='Your collage name'>" +
+                                "</div>" +
+                                "<label>Select Batch & Type</label>" +
+								"<select class='form-control' id = 'BatchName' onchange='checkBatch()' >" +
+									"<option value='0' selected>Default (none)</option>" +
+									"<option value='1'>Web Development (Regular)</option>" +
+									"<option value='2' >Web Development (Weekend)</option>" +
+									"<option value='3' >Android Programing (Regular)</option>" +
+									"<option value='4' >Android Programing (Weekend)</option>" +
+									"<option value='5'>Java Programing (Regular)</option>" +
+									"<option value='6' >Java Programing (Weekend)</option>" +
+									"<option value='7' >Testing Automation (Regular)</option>" +
+									"<option value='8' >Testing Automation (Weekend)</option>" +
+								"</select><br/>" +
+								"<div id='availbatch'></div><br/>" + 
+								"<button type='submit' class='btn btn-cta-primary' id='batchInfo' onclick='batchInfo("+ parseInt(notice['1']) +");'>Save</button>" ;
+					document.getElementById("furtherInfo").innerHTML = modal ;
+					$("#batchInfo").attr('disabled','disabled');
 				} 
 				else {
-					bootstrap_alert(".alert-placeholder", notice['0'], 5000,"alert-warning");
+					bootstrap_alert(".alert_placeholder", notice['0'], 5000,"alert-warning");
 				}		
 			} 
 		});
 	}		 
  }
  
- function IsNumeric(e) {
+function batchInfo(Id){
+	var time = $("#batchTime").val() ;
+	var degree = $("#heightestEducation").val() ;
+	var collage = $("#collageName").val() ;
+	var batch = $("#BatchName").val() ;
+	var data = document.getElementById("batchTime") ;
+	if(data == null) {
+		bootstrap_alert(".alert_placeholder", "Sorry, currently no batch available", 5000,"alert-warning");
+		if(replaceAll('\\s', '',degree) == "0"){
+			bootstrap_alert(".alert_placeholder", "Please select education ", 5000,"alert-success");
+			return false;
+		}
+		else if(replaceAll('\\s', '',collage) == ""){
+			bootstrap_alert(".alert_placeholder", "Collage name can not be empty", 5000,"alert-success");
+			return false;
+		}
+		else if(replaceAll('\\s', '',batch) == "0"){
+			bootstrap_alert(".alert_placeholder", "Please select batch name", 5000,"alert-success");
+			return false;
+		}
+		else {
+			var dataString = 'user_id=' + Id + '&degree=' + degree + '&collage=' + collage + '&batch=' + batch + '&time=""' ;
+			submitInfo(dataString);
+		}
+	}
+	else { 
+		if(replaceAll('\\s', '',time) == '0'){
+			bootstrap_alert(".alert_placeholder", "Please select Time of batch", 5000,"alert-success");
+			return false;
+		}
+		else if(replaceAll('\\s', '',degree) == "0"){
+			bootstrap_alert(".alert_placeholder", "Please select education ", 5000,"alert-success");
+			return false;
+		}
+		else if(replaceAll('\\s', '',collage) == ""){
+			bootstrap_alert(".alert_placeholder", "Collage name can not be empty", 5000,"alert-success");
+			return false;
+		}
+		else if(replaceAll('\\s', '',batch) == "0"){
+			bootstrap_alert(".alert_placeholder", "Please select batch name", 5000,"alert-success");
+			return false;
+		}
+		else {
+			var dataString = 'user_id=' + Id + '&degree=' + degree + '&collage=' + collage + '&batch=' + batch + '&time=' + time ;
+			submitInfo(dataString);
+		}
+	}	
+}
+
+function submitInfo(dataString){
+	$.ajax({
+		type: "POST",
+		url: "ajax/submit_batch.php",
+		async: false ,
+		data: dataString,
+		cache: false,
+		success: function(result){
+			if (result == "Please Try Again") {
+				bootstrap_alert(".alert_placeholder", result, 5000,"alert-warning");
+			}
+			else {
+				bootstrap_alert(".alert_placeholder", result, 5000,"alert-success");
+				setTimeout(function () {
+                    window.location ='homepage.php' ;
+                }, 3000);
+			}
+		}
+	});
+}
+
+function IsNumeric(e) {
 	var specialKeys = new Array();
 	specialKeys.push(8); //Backspace
     var keyCode = e.which ? e.which : e.keyCode
@@ -134,14 +243,72 @@ function validateEmail(fld) {
 	return false;
 }
 
-function validatePath(path) {
-	if (path.match("^[a-zA-Z0-9.]*$")) {
-		return "true" ;
-	}
-	else {
+function login() {
+	var email = $("#login_email").val() ;
+	var pass = $("#login_password").val() ;
+	if(replaceAll('\\s', '',email) == ""){
+		bootstrap_alert(".alert_placeholder", "Email can not be empty", 5000,"alert-success");
 		return false;
 	}
- }
+	else if(replaceAll('\\s', '',pass) == ""){
+		bootstrap_alert(".alert_placeholder", "Password can not be empty", 5000,"alert-success");
+		return false;
+	}
+	else {
+		var dataString = 'email=' + email + '&password=' + pass ;
+		$.ajax({
+			type: "POST",
+			url: "ajax/login.php",
+			async: false ,
+			data: dataString,
+			cache: false,
+			success: function(result){
+				if (result == "Successfully") {
+					window.location ='homepage.php' ;
+				}
+				else if (result == "complete profile") {
+					bootstrap_alert(".alert_placeholder", "Please complete profile ", 5000,"alert-success");
+					var modal = "<label>Select Highest Qualification</label>" +
+								"<select class='form-control' id = 'heightestEducation'>" +
+									"<option value='0' selected>Default (none)</option>" +
+									"<option value='B.Tech'>B.Tech</option>" +
+									"<option value='B.A' >B.A.</option>" +
+									"<option value='B.Sc' >B.Sc.</option>" +
+									"<option value='B.com' >B.com.</option>" +
+									"<option value='M.Tech'>M.Tech</option>" +
+									"<option value='M.A' >M.A.</option>" +
+									"<option value='M.Sc' >M.Sc.</option>" +
+									"<option value='M.com' >M.com.</option>" +
+									"<option value='other' >Others</option>" +
+								"</select><br/>" +	
+								"<div class='form-group email'>" +
+                                     "<label class='sr-only' for='signup-email'>Collage Name</label>" +
+                                     "<input id='collageName' type='text' class='form-control login-email' placeholder='Your collage name'>" +
+                                "</div>" +
+                                "<label>Select Batch & Type</label>" +
+								"<select class='form-control' id = 'BatchName' onchange='checkBatch()' >" +
+									"<option value='0' selected>Default (none)</option>" +
+									"<option value='1'>Web Development (Regular)</option>" +
+									"<option value='2' >Web Development (Weekend)</option>" +
+									"<option value='3' >Android Programing (Regular)</option>" +
+									"<option value='4' >Android Programing (Weekend)</option>" +
+									"<option value='5'>Java Programing (Regular)</option>" +
+									"<option value='6' >Java Programing (Weekend)</option>" +
+									"<option value='7' >Testing Automation (Regular)</option>" +
+									"<option value='8' >Testing Automation (Weekend)</option>" +
+								"</select><br/>" +
+								"<div id='availbatch'></div><br/>" + 
+								"<button type='submit' class='btn btn-cta-primary' id='batchInfo' onclick='batchInfo("+ parseInt(notice['1']) +");'>Save</button>" ;
+					document.getElementById("furtherInfo").innerHTML = modal ;
+					$("#batchInfo").attr('disabled','disabled');
+				}
+				else {
+					bootstrap_alert(".alert_placeholder", result, 5000,"alert-warning");
+				}
+			}
+		});
+	}
+}
   
 function nospaces(t){
 	if(t.value.match(/\s/g)){
@@ -156,7 +323,6 @@ function username_availability_check() {
 	if (username.value != ""){
 		if (window.XMLHttpRequest){
 			xmlhttp=new XMLHttpRequest();
-
 		} 
 		else {
 			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
@@ -177,8 +343,8 @@ function email_availability_check() {
 	if (email_forget.value != ""){
 		if (window.XMLHttpRequest){
 			xmlhttp=new XMLHttpRequest();
-
-		} else {
+		} 
+		else {
 			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 		}
 		xmlhttp.onreadystatechange=function(){
@@ -187,6 +353,27 @@ function email_availability_check() {
 			}
 		};
 		xmlhttp.open("GET","ajax/email_check.php?email="+encodeURIComponent(email_forget.value),true);
+		xmlhttp.send();
+	}
+};
+
+function checkBatch() {
+	var xmlhttp;
+	var batch = document.getElementById("BatchName");
+	if (batch.value != "" || batch.value != '0'){
+		if (window.XMLHttpRequest){
+			xmlhttp=new XMLHttpRequest();
+		} 
+		else {
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function(){
+			if (xmlhttp.readyState==4 && xmlhttp.status==200){
+				document.getElementById("availbatch").innerHTML=xmlhttp.responseText;
+				$("#batchInfo").removeAttr('disabled');
+			}
+		};
+		xmlhttp.open("GET","ajax/batch_check.php?batch="+encodeURIComponent(batch.value),true);
 		xmlhttp.send();
 	}
 };

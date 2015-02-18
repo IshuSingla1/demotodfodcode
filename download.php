@@ -250,11 +250,6 @@
             </div><!--//row-->
         </div><!--//container-->
     </section><!--//features-tabbed-->
-
-
-
-
-
     <!-- ******FOOTER****** --> 
     <?php require_once 'components/footer.php' ?>
     

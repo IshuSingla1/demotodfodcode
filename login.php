@@ -40,26 +40,25 @@
                         <div class="form-box-inner">
                             <h2 class="title text-center">Log in to Velocity</h2>                 
                             <div class="row">
-                                <div class="form-container col-md-5 col-sm-12 col-xs-12">
-                                    <form class="login-form">              
+								<div class='alert_placeholder'></div>
+                                <div class="form-container col-md-11 col-sm-12 col-xs-12" id ='furtherInfo'>
                                         <div class="form-group email">
                                             <label class="sr-only" for="login-email">Email or username</label>
-                                            <input id="login-email" type="email" class="form-control login-email" placeholder="Email or username">
+                                            <input id="login_email" type="text" class="form-control login-email" onkeyup="nospaces(this)" placeholder="Email or username">
                                         </div><!--//form-group-->
                                         <div class="form-group password">
                                             <label class="sr-only" for="login-password">Password</label>
-                                            <input id="login-password" type="password" class="form-control login-password" placeholder="Password">
-                                            <p class="forgot-password"><a href="reset-password.html">Forgot password?</a></p>
-                                        </div><!--//form-group-->
-                                        <button type="submit" class="btn btn-block btn-cta-primary">Log in</button>
+                                            <input id="login_password" type="password" class="form-control login-password" onkeyup="nospaces(this)" placeholder="Password">
+                                        <!--//form-group    <p class="forgot-password"><a href="reset-password.html">Forgot password?</a></p> -->
+                                        </div>
+                                        <button type="submit" class="btn btn-block btn-cta-primary" onclick='login()'>Log in</button>
                                         <div class="checkbox remember">
                                             <label>
                                                 <input type="checkbox"> Remember me
                                             </label>
                                         </div><!--//checkbox-->
-                                         <p class="lead">Don't have a Velocity account yet? <br /><a class="signup-link" href="signup.html">Create your account now</a></p>  
-                                    </form>
-                                </div><!--//form-container-->
+                                         <p class="lead">Don't have a Velocity account yet? <br /><a class="signup-link" href="signup.html">Create your account now</a></p>
+                                </div><!--//form-container
                                 <div class="social-btns col-md-5 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-sm-offset-0">  
                                     <div class="divider"><span>Or</span></div>                      
                                     <ul class="list-unstyled social-login">
@@ -68,7 +67,7 @@
                                         <li><button class="github-btn btn" type="button"><i class="fa fa-github-alt"></i>Log in with Github</button></li>
                                         <li><button class="google-btn btn" type="button"><i class="fa fa-google-plus"></i>Log in with Google</button></li>
                                     </ul>
-                                </div><!--//social-btns-->
+                                </div><!--//social-btns--> 
                             </div><!--//row-->
                         </div><!--//form-box-inner-->
                     </div><!--//form-box-->
@@ -113,8 +112,7 @@
     <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
     <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
     <script type="text/javascript" src="assets/js/main.js"></script>
-    
-            
+    <script type="text/javascript" src="assets/js/signupvalidation.js"></script>             
 </body>
 </html> 
 

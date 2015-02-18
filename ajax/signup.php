@@ -3,8 +3,8 @@
 	$config['user'] = "root" ;
 	$config['password'] = "redhat111111" ;
 	$config['database'] = "todfodcode" ;
-	$db_handle = mysqli_connect($config['host'], $config['user'], $config['password'], $config['database']);
-if(isset($_POST['firstname'])){	
+	$db_handle = mysqli_connect($config['host'], $config['user'], $config['password'], $config['database']);	
+if($_POST['firstname']){	
 	$firstname = mysqli_real_escape_string($db_handle, $_POST['firstname']);
 	$lastname = mysqli_real_escape_string($db_handle, $_POST['lastname']);
 	$email = mysqli_real_escape_string($db_handle, $_POST['email']);
@@ -27,7 +27,7 @@ if(isset($_POST['firstname'])){
 			$pass = md5($pass);
 			$logintime = date("y-m-d H:i:s") ;
 			mysqli_query($db_handle,"INSERT INTO user_info(first_name, last_name, email, contact_no, username, password, last_login_time) 
-										VALUES ('$firstname', '$lastname', '$email', '$phone', '$username', '$pas', '$logintime') ; ") ;		
+										VALUES ('$firstname', '$lastname', '$email', '$phone', '$username', '$pass', '$logintime') ; ") ;		
 			$user_create_id = mysqli_insert_id($db_handle);
 			if(mysqli_error($db_handle)){ echo "Please Try Again"; } 
 			else { echo "Registered Succcessfully"."+".$user_create_id ; }
