@@ -212,9 +212,9 @@ function submitInfo(dataString){
 			}
 			else {
 				bootstrap_alert(".alert_placeholder", result, 5000,"alert-success");
-				setTimeout(function () {
-                    window.location ='homepage.php' ;
-                }, 3000);
+				//setTimeout(function () {
+                  //  window.location ='homepage.php' ;
+               // }, 3000);
 			}
 		}
 	});
@@ -264,7 +264,8 @@ function login() {
 			cache: false,
 			success: function(result){
 				if (result == "Successfully") {
-					window.location ='homepage.php' ;
+					bootstrap_alert(".alert_placeholder", "Your account will be activated soon", 5000,"alert-success");
+					//window.location ='homepage.php' ;
 				}
 				else if (result == "complete profile") {
 					bootstrap_alert(".alert_placeholder", "Please complete profile ", 5000,"alert-success");
