@@ -308,7 +308,7 @@ System Variable Index, Transaction Isolation Level Index</li>
     <!-- ******FOOTER****** --> 
     <?php require_once 'components/footer.php' ?>
     
-    <!-- *****CONFIGURE STYLE****** -->  
+    <!-- *****CONFIGURE STYLE******  
     <div class="config-wrapper">
         <div class="config-wrapper-inner">
             <a id="config-trigger" class="config-trigger" href="#"><i class="fa fa-cog"></i></a>
@@ -325,10 +325,10 @@ System Variable Index, Transaction Isolation Level Index</li>
                     <li class="theme-8"><a data-style="assets/css/styles-8.css" href="#"></a></li>                    
                     <li class="theme-9"><a data-style="assets/css/styles-9.css" href="#"></a></li>
                     <li class="theme-10"><a data-style="assets/css/styles-10.css" href="#"></a></li>
-                </ul><!--//color-options-->
+                </ul><!--//color-options
                 <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
-            </div><!--//configure-panel-->
-        </div><!--//config-wrapper-inner-->
+            </div><!--//configure-panel
+        </div><!--//config-wrapper-inner
     </div><!--//config-wrapper-->
  
     <!-- Javascript -->          
