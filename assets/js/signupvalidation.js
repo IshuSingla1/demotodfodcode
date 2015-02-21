@@ -329,7 +329,7 @@ function username_availability_check() {
 function email_availability_check() {
 	var xmlhttp;
 	var email_forget=document.getElementById("signup_email");
-	if (email_forget.value != ""){
+	if (email_forget.value != "" && validateEmail(email)!==false ){
 		if (window.XMLHttpRequest){
 			xmlhttp=new XMLHttpRequest();
 		} 
