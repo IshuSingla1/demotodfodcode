@@ -132,12 +132,6 @@ function signUp() {
 									"<option value='0' selected>Default (none)</option>" +
 									"<option value='1'>Web Development (Regular)</option>" +
 									"<option value='2' >Web Development (Weekend)</option>" +
-									"<option value='3' >Android Programing (Regular)</option>" +
-									"<option value='4' >Android Programing (Weekend)</option>" +
-									"<option value='5'>Java Programing (Regular)</option>" +
-									"<option value='6' >Java Programing (Weekend)</option>" +
-									"<option value='7' >Testing Automation (Regular)</option>" +
-									"<option value='8' >Testing Automation (Weekend)</option>" +
 								"</select><br/>" +
 								"<div id='availbatch'></div><br/>" + 
 								"<button type='submit' class='btn btn-cta-primary' id='batchInfo' onclick='batchInfo("+ parseInt(notice['1']) +");'>Save</button>" ;
@@ -214,9 +208,7 @@ function submitInfo(dataString){
 			}
 			else {
 				bootstrap_alert(".alert_placeholder", result, 5000,"alert-success");
-				setTimeout(function () {
-                    window.location ='index.php' ;
-                }, 3000);
+				setTimeout(function () { window.location ='courses.php' ; }, 10000);
 			}
 		}
 	});
@@ -267,7 +259,7 @@ function login() {
 			success: function(result){
 				if (result == "Successfully") {
 					bootstrap_alert(".alert_placeholder", "Your account will be activated soon", 5000,"alert-success");
-					window.location ='index.php' ;
+					window.location ='homepage.php' ;
 				}
 				else if (result == "complete profile") {
 					bootstrap_alert(".alert_placeholder", "Please complete profile ", 5000,"alert-success");
@@ -293,12 +285,6 @@ function login() {
 									"<option value='0' selected>Default (none)</option>" +
 									"<option value='1'>Web Development (Regular)</option>" +
 									"<option value='2' >Web Development (Weekend)</option>" +
-									"<option value='3' >Android Programing (Regular)</option>" +
-									"<option value='4' >Android Programing (Weekend)</option>" +
-									"<option value='5'>Java Programing (Regular)</option>" +
-									"<option value='6' >Java Programing (Weekend)</option>" +
-									"<option value='7' >Testing Automation (Regular)</option>" +
-									"<option value='8' >Testing Automation (Weekend)</option>" +
 								"</select><br/>" +
 								"<div id='availbatch'></div><br/>" + 
 								"<button type='submit' class='btn btn-cta-primary' id='batchInfo' onclick='batchInfo("+ parseInt(notice['1']) +");'>Save</button>" ;
@@ -323,7 +309,7 @@ function nospaces(t){
 function username_availability_check() {
 	var xmlhttp;
 	var username=document.getElementById("signup_username");
-	if (username.value != ""){
+	if (username.value != "" && username.length > 6){
 		if (window.XMLHttpRequest){
 			xmlhttp=new XMLHttpRequest();
 		} 
