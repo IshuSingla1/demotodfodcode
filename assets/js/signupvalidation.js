@@ -1,5 +1,5 @@
 function bootstrap_alert(elem, message, timeout,type) {
-  $(elem).show().html('<div class="alert '+type+'" role="alert" style="overflow: hidden; position: fixed; right: 20%;transition: transform 0.3s ease-out 0s; width: auto;  z-index: 1050; top: 50px;  transition: left 0.6s ease-out 0s;"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
+  $(elem).show().html('<div class="alert '+type+'" role="alert" style="overflow: hidden; position: fixed; right: 20%;transition: transform 0.3s ease-out 0s; width: auto;  z-index: 1050; top: 80px;  transition: left 0.6s ease-out 0s;"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
 
   if (timeout || timeout === 0) {
     setTimeout(function() { 
@@ -212,9 +212,9 @@ function submitInfo(dataString){
 			}
 			else {
 				bootstrap_alert(".alert_placeholder", result, 5000,"alert-success");
-				//setTimeout(function () {
-                  //  window.location ='homepage.php' ;
-               // }, 3000);
+				setTimeout(function () {
+                    window.location ='index.php' ;
+                }, 3000);
 			}
 		}
 	});
@@ -265,7 +265,7 @@ function login() {
 			success: function(result){
 				if (result == "Successfully") {
 					bootstrap_alert(".alert_placeholder", "Your account will be activated soon", 5000,"alert-success");
-					//window.location ='homepage.php' ;
+					window.location ='index.php' ;
 				}
 				else if (result == "complete profile") {
 					bootstrap_alert(".alert_placeholder", "Please complete profile ", 5000,"alert-success");
@@ -357,6 +357,41 @@ function email_availability_check() {
 		xmlhttp.send();
 	}
 };
+
+function subscribe() {
+	$("#subscribe").attr('disabled','disabled');
+	var email = $("#subscribe_email").val() ;
+	if(replaceAll('\\s', '',email) == ""){
+		bootstrap_alert(".alert_placeholder", "Email can not be empty", 5000,"alert-success");
+		$("#subscribe").removeAttr('disabled');
+		return false;
+	}
+	else if (validateEmail(email)==false) {
+        bootstrap_alert(".alert_placeholder", "Enter a valid email id", 5000,"alert-warning");
+        $("#subscribe").removeAttr('disabled');       
+    }
+    else {
+		var dataString = 'id=' + email ;
+		$.ajax({
+			type: "POST",
+			url: "ajax/subscribe.php",
+			async: false ,
+			data: dataString,
+			cache: false,
+			success: function(result){
+				if (result == 'Subscribed succesfully!'){
+					bootstrap_alert(".alert_placeholder", 'Subscribed succesfully! <br/> We will contact you soon', 5000,"alert-success");
+					$("#subscribe").removeAttr('disabled');
+					$('#SubscribeForm').remove();
+				}
+				else {
+					bootstrap_alert(".alert_placeholder", result, 5000,"alert-warning");
+					$("#subscribe").removeAttr('disabled');
+				}
+			}
+		});
+	}
+}
 
 function checkBatch() {
 	var xmlhttp;

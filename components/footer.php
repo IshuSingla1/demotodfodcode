@@ -12,7 +12,7 @@
                                 <li><a href="contact.php"><i class="fa fa-caret-right"></i>Contact us</a></li>
                             </ul>
                         </div><!--//footer-col-inner-->
-                    </div><!--//foooter-col-->    
+                    </div><!--//foooter-col    
                     <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
                         <div class="footer-col-inner">
                             <h3 class="title">Product</h3>
@@ -22,7 +22,7 @@
                                 <li><a href="#"><i class="fa fa-caret-right"></i>Download Apps</a></li>
                                 <li><a href="#"><i class="fa fa-caret-right"></i>Pricing</a></li>
                             </ul>
-                        </div><!--//footer-col-inner-->
+                        </div><!--//footer-col-inner
                     </div><!--//foooter-col-->
                     <!--              
                     <div class="footer-col links col-md-2 col-sm-4 col-xs-12 sm-break">
@@ -35,7 +35,7 @@
                                 <li><a href="#"><i class="fa fa-caret-right"></i>Privacy</a></li>
                             </ul>
                         </div><!--//footer-col-inner-->
-                        <div class="footer-col links col-md-3 col-sm-4 col-xs-12 sm-break">
+                        <div class="footer-col links col-md-4 col-sm-6 col-xs-12 sm-break">
                         <div class="footer-col-inner">
                             <h3 class="title">Reach Us</h3>
                             <ul class="list-unstyled">
@@ -43,9 +43,8 @@
                                 <span class="adr-group pull-left">       
                                 <li><span class="street-address">Genesis, Sarjapur Signal</span><br></li>
                                 <li><span class="region"></span>Belandur, Bangalore<br></li>
-                                <li><span class="postal-code">560103</span><br></li>
-                                <li><span class="country-name">India</span></li>
-                                <li><span class="tel"><i class="fa fa-phone"></i>0800 123 4567</span></li>
+                                <li><span class="postal-code">560103, India</span></li>
+                                <li><span class="tel"><i class="fa fa-phone"></i>+918884500545, +918901414422, +919886182033</span></li>
                                 <li></li><span class="email"><i class="fa fa-envelope-o"></i><a href="#">todfodcode@gmail.com</a></span></li>
                                 </span>
                             </ul>
@@ -62,14 +61,13 @@
                                 <li class="row-end"><a href="#"><i class="fa fa-rss"></i></a></li>     
                              -->        
                             </ul>
-                            <div class="form-container">
+                            <div class='alert_placeholder'></div>
+                            <div class="form-container" id='SubscribeForm'>
                                 <p class="intro">Stay up to date with the latest news and offers from Todfodcode</p>
-                                <form class="signup-form navbar-form">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Enter your email address">
+                                        <input type="text" class="form-control" id='subscribe_email' onkeyup="nospaces(this)" placeholder="Enter your email address">
                                     </div>   
-                                    <button type="submit" class="btn btn-cta btn-cta-primary">Subscribe Now</button>                                 
-                                </form>                               
+                                    <button type="submit" class="btn btn-cta btn-cta-primary" id='subscribe' onclick='subscribe()'>Subscribe Now</button>                                                                
                             </div><!--//subscription-form-->
                         </div><!--//footer-col-inner-->
                     </div><!--//foooter-col-->
@@ -114,3 +112,4 @@
             </div><!--//container-->
         </div><!--//bottom-bar-->
     </footer><!--//footer-->
+	<script type="text/javascript" src="assets/js/signupvalidation.js"></script>

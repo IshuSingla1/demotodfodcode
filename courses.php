@@ -52,10 +52,10 @@
                 <div class=" text-center col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs text-center" role="tablist">
-                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-cloud-upload"></i><br /><span class="hidden-sm hidden-xs">Demo Class</span></a></li>
-                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i><br /><span class="hidden-sm hidden-xs">Course Content</span></a></li>
-                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-photo"></i><br /><span class="hidden-sm hidden-xs">PHP</span></a></li>
-                        <li class="last"><a href="#feature-4" role="tab" data-toggle="tab"><i class="fa fa-users"></i><br /><span class="hidden-sm hidden-xs">MySql</span></a></li>
+                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-laptop"></i><br /><span class="hidden-sm hidden-xs">Demo Class</span></a></li>
+                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-bars"></i><br /><span class="hidden-sm hidden-xs">Course Content</span></a></li>
+                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-language"></i><br /><span class="hidden-sm hidden-xs">PHP</span></a></li>
+                        <li class="last"><a href="#feature-4" role="tab" data-toggle="tab"><i class="fa fa-database"></i><br /><span class="hidden-sm hidden-xs">MySql</span></a></li>
                     </ul><!--//nav-tabs-->
                     
                     <!-- Tab panes -->

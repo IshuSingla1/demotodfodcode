@@ -57,7 +57,7 @@
                                                 <input type="checkbox"> Remember me
                                             </label>
                                         </div><!--//checkbox-->
-                                         <p class="lead">Don't have a TodFodCode account yet? <br /><a class="signup-link" href="signup.html">Create your account now</a></p>
+                                         <p class="lead">Don't have a TodFodCode account yet? <br /><a class="signup-link" href="signup.php">Create your account now</a></p>
                                 </div><!--//form-container
                                 <div class="social-btns col-md-5 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-sm-offset-0">  
                                     <div class="divider"><span>Or</span></div>                      

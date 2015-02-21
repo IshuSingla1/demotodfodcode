@@ -76,8 +76,8 @@
                     <ul class="other-info list-unstyled col-md-6 col-sm-10 col-xs-12 col-md-offset-3 col-sm-offset-1 xs-offset-0" >
                         <li><i class="fa fa-envelope-o"></i><a href="mailto: todfodcode@gmail.com" target="_blank">todfodcode@gmail.com</a></li>
                         <li><i class="fa fa-twitter"></i><a href="https://twitter.com/todfodcode" target="_blank">@todfodcode</a></li>
-                        <li><i class="fa fa-phone"></i><a href="tel:+0800123456">0800 123 456</a></li>
-                        <li><i class="fa fa-map-marker"></i> Genesis Building, <br />Sarjapur Signal<br />Belandur 560103<br /> Bangalore<br />INDIA</li>
+                        <li><i class="fa fa-phone"></i><a>+918884500545, +918901414422, +919886182033</a></li>
+                        <li><i class="fa fa-map-marker"></i> Genesis Building, <br />Sarjapur Signal<br />Belandur 560103<br /> Bangalore INDIA</li>
                     </ul>
                 </div><!--//row-->
             </div><!--//container-->

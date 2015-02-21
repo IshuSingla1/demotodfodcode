@@ -38,7 +38,7 @@
                             </ul>                            
                         </li> --><!--//dropdown-->                         
                         <li class="nav-item"><a href="login.php">Log in</a></li>
-                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="signup.php">Sign Up Free</a></li>
+                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="signup.php">Register Here Free</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </nav><!--//main-nav-->                     

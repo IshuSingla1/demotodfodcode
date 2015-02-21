@@ -88,7 +88,7 @@
                                     </div>
                                         <button type="submit" class="btn btn-cta-primary" onclick="signUp();">Sign up</button>
                                         <p class="note">By signing up, you agree to our terms of services and privacy policy.</p>
-                                        <p class="lead">Already have an account? <a class="login-link" id="login-link" href="login.html">Log in</a></p>  
+                                        <p class="lead">Already have an account? <a class="login-link" id="login-link" href="login.php">Log in</a></p>  
                                 </div><!--//form-container-->
                              <!--   <div class="social-btns col-md-5 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-sm-offset-0">  
                                     <div class="divider"><span>Or</span></div>                      
