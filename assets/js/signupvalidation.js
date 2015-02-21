@@ -305,7 +305,7 @@ function login() {
 									"<option value='M.com' >M.com.</option>" +
 									"<option value='other' >Others</option>" +
 								"</select><br/>" +
-								"<div class='form-group email' id='specificEdu'></div>" +	
+								"<div id='specificEdu'></div><br/>" +	
 								"<div class='form-group email'>" +
                                      "<label class='sr-only' for='signup-email'>Collage Name</label>" +
                                      "<input id='collageName' type='text' class='form-control login-email' placeholder='Your collage name'>" +
