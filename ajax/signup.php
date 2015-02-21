@@ -1,7 +1,7 @@
 <?php
 	$config['host'] = "localhost" ;
 	$config['user'] = "root" ;
-	$config['password'] = "redhat@11111p" ;
+	$config['password'] = "redhat111111" ;
 	$config['database'] = "todfodcode" ;
 	$db_handle = mysqli_connect($config['host'], $config['user'], $config['password'], $config['database']);	
 if($_POST['firstname']){	

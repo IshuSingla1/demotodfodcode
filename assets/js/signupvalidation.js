@@ -1,5 +1,5 @@
 function bootstrap_alert(elem, message, timeout,type) {
-  $(elem).show().html('<div class="alert '+type+'" role="alert" style="overflow: hidden; position: fixed; right: 20%;transition: transform 0.3s ease-out 0s; width: auto;  z-index: 1050; top: 80px;  transition: left 0.6s ease-out 0s;"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
+  $(elem).show().html('<div class="alert '+type+'" role="alert" style="overflow: hidden; position: fixed; right: 40%;transition: transform 0.3s ease-out 0s; width: auto;  z-index: 1050; top: 80px;  transition: left 0.6s ease-out 0s;"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
 
   if (timeout || timeout === 0) {
     setTimeout(function() { 
@@ -111,7 +111,7 @@ function signUp() {
 				if(notice['0'] == 'Registered Succcessfully'){
 					bootstrap_alert(".alert_placeholder", "First step is completed", 5000,"alert-warning");
 					var modal = "<label>Select Highest Qualification</label>" +
-								"<select class='form-control' id = 'heightestEducation'>" +
+								"<select class='form-control' id = 'heightestEducation' onchange='insertEdu()'>" +
 									"<option value='0' selected>Default (none)</option>" +
 									"<option value='B.Tech'>B.Tech</option>" +
 									"<option value='B.A' >B.A.</option>" +
@@ -122,7 +122,8 @@ function signUp() {
 									"<option value='M.Sc' >M.Sc.</option>" +
 									"<option value='M.com' >M.com.</option>" +
 									"<option value='other' >Others</option>" +
-								"</select><br/>" +	
+								"</select><br/>" +
+								"<div id='specificEdu'></div><br/>" +	
 								"<div class='form-group email'>" +
                                      "<label class='sr-only' for='signup-email'>Collage Name</label>" +
                                      "<input id='collageName' type='text' class='form-control login-email' placeholder='Your collage name'>" +
@@ -151,11 +152,16 @@ function batchInfo(Id){
 	var degree = $("#heightestEducation").val() ;
 	var collage = $("#collageName").val() ;
 	var batch = $("#BatchName").val() ;
+	var edu = $("#specificEducation").val() ;
 	var data = document.getElementById("batchTime") ;
 	if(data == null) {
 		bootstrap_alert(".alert_placeholder", "Sorry, currently no batch available", 5000,"alert-warning");
 		if(replaceAll('\\s', '',degree) == "0"){
 			bootstrap_alert(".alert_placeholder", "Please select education ", 5000,"alert-success");
+			return false;
+		}
+		else if(degree == "other" && replaceAll('\\s', '',edu) == ""){
+			bootstrap_alert(".alert_placeholder", "Please specify your education", 5000,"alert-success");
 			return false;
 		}
 		else if(replaceAll('\\s', '',collage) == ""){
@@ -167,7 +173,12 @@ function batchInfo(Id){
 			return false;
 		}
 		else {
-			var dataString = 'user_id=' + Id + '&degree=' + degree + '&collage=' + collage + '&batch=' + batch + '&time=""' ;
+			if(edu == ""){
+				var dataString = 'user_id=' + Id + '&degree=' + degree + '&collage=' + collage + '&batch=' + batch + '&time=""' ;
+			}
+			else {
+				var dataString = 'user_id=' + Id + '&degree=' + edu + '&collage=' + collage + '&batch=' + batch + '&time=""' ;
+			}
 			submitInfo(dataString);
 		}
 	}
@@ -189,10 +200,28 @@ function batchInfo(Id){
 			return false;
 		}
 		else {
-			var dataString = 'user_id=' + Id + '&degree=' + degree + '&collage=' + collage + '&batch=' + batch + '&time=' + time ;
+			if(edu == ""){
+				var dataString = 'user_id=' + Id + '&degree=' + degree + '&collage=' + collage + '&batch=' + batch + '&time=' + time  ;
+			}
+			else {
+				var dataString = 'user_id=' + Id + '&degree=' + edu + '&collage=' + collage + '&batch=' + batch + '&time=' + time ;
+			}
 			submitInfo(dataString);
 		}
 	}	
+}
+
+function insertEdu(){
+	var value = $("#heightestEducation").val() ;
+	if(value == 'other'){
+		var modal = "<div class='form-group email'>" +
+					"<input id='specificEducation' type='text' class='form-control login-email' placeholder='Please specify your Education'>" +
+					"</div>" ;
+		document.getElementById("specificEdu").innerHTML = modal ;
+	}
+	else {
+		document.getElementById("specificEdu").innerHTML = "";
+	}
 }
 
 function submitInfo(dataString){
@@ -264,7 +293,7 @@ function login() {
 				else if (result == "complete profile") {
 					bootstrap_alert(".alert_placeholder", "Please complete profile ", 5000,"alert-success");
 					var modal = "<label>Select Highest Qualification</label>" +
-								"<select class='form-control' id = 'heightestEducation'>" +
+								"<select class='form-control' id = 'heightestEducation' onchange='insertEdu()'>" +
 									"<option value='0' selected>Default (none)</option>" +
 									"<option value='B.Tech'>B.Tech</option>" +
 									"<option value='B.A' >B.A.</option>" +
@@ -275,7 +304,8 @@ function login() {
 									"<option value='M.Sc' >M.Sc.</option>" +
 									"<option value='M.com' >M.com.</option>" +
 									"<option value='other' >Others</option>" +
-								"</select><br/>" +	
+								"</select><br/>" +
+								"<div class='form-group email' id='specificEdu'></div>" +	
 								"<div class='form-group email'>" +
                                      "<label class='sr-only' for='signup-email'>Collage Name</label>" +
                                      "<input id='collageName' type='text' class='form-control login-email' placeholder='Your collage name'>" +
