@@ -85,14 +85,19 @@
 					<h2 class="title">Take a quick tour to Setting up the Factory<br/> Download</h2>
 				</div><!--//container-->
 			</section><!--//feature-video-->
+			<section class="features-video section section-on-bg">
+				<div class="container text-center">          
+				
+				</div><!--//container-->
+			</section><!--//feature-video-->
             <div class="row">
                 <div class=" text-center col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs text-center" role="tablist">
-                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-cloud-upload"></i><br /><span class="hidden-sm hidden-xs">LAMP</span></a></li>
-                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i><br /><span class="hidden-sm hidden-xs">WAMP</span></a></li>
-                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-photo"></i><br /><span class="hidden-sm hidden-xs">PHPMYADMIN</span></a></li>
-                        <li class="last"><a href="#feature-4" role="tab" data-toggle="tab"><i class="fa fa-users"></i><br /><span class="hidden-sm hidden-xs">Ubuntu</span></a></li>
+                        <li class="active"><a href="#feature-1" role="tab" data-toggle="tab"><i class="fa fa-linux"></i><br /><span class="hidden-sm hidden-xs">LAMP <br/>(Ubuntu & Fedora)</span></a></li>
+                        <li><a href="#feature-2" role="tab" data-toggle="tab"><i class="fa fa-windows"></i><br /><span class="hidden-sm hidden-xs">WAMP <br/>(Windows)</span></a></li>
+                        <li><a href="#feature-3" role="tab" data-toggle="tab"><i class="fa fa-database"></i><br /><span class="hidden-sm hidden-xs">PHPMYADMIN<br/>(Ubuntu & Fedora)</span></a></li>
+                        <li class="last"><a href="#feature-4" role="tab" data-toggle="tab"><i class="fa fa-linux"></i><br /><span class="hidden-sm hidden-xs">Installation (Ubuntu)</span></a></li>
                     </ul><!--//nav-tabs-->
                     
                     <!-- Tab panes -->
@@ -169,7 +174,7 @@
 										Step 2: Install phpmyadmin<br/>
 									<pre>sudo apt-get install phpmyadmin</pre>
 									Step 3: To set up under Apache all you need to do is include the following line in /etc/apache2/apache2.conf. <br/>
-										<pre>Include /etc/phpmyadmin/apache.conf</pre>pre>
+										<pre>Include /etc/phpmyadmin/apache.conf</pre>
 									Step 4: Check phpMyAdmin, Go to the url and login with the username and passwords entered during installation:<br/>
 										<pre>http://127.0.0.1/phpmyadmin</pre>
                                     <li><i class="fa fa-star"> Fedora</i></li>

@@ -35,7 +35,6 @@
         <div class="headline-bg contact-headline-bg">
         </div><!--//headline-bg-->
 
-        
         <!-- ******Contact Section****** --> 
         <section class="contact-section section section-on-bg">
             <div class="container">
@@ -44,8 +43,7 @@
                 <form id="contact-form" class="contact-form" method="post" action="">                    
                     <div class="row text-center">
                         <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
-                            <div class="row">                                                           
-                                
+                            <div class="row">                                                                                           
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
                                     <label class="sr-only" for="cname">Your name</label>
                                     <input type="text" class="form-control" id="cname" name="name" placeholder="Your name" minlength="2" required>
@@ -76,7 +74,7 @@
                 <p class="intro">You can also get in touch with // तोड़  // फोड़  {  Code </p>
                 <div class="row">
                     <ul class="other-info list-unstyled col-md-6 col-sm-10 col-xs-12 col-md-offset-3 col-sm-offset-1 xs-offset-0" >
-                        <li><i class="fa fa-envelope-o"></i><a href="#">todfodcode@gmail.com</a></li>
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto: todfodcode@gmail.com" target="_blank">todfodcode@gmail.com</a></li>
                         <li><i class="fa fa-twitter"></i><a href="https://twitter.com/todfodcode" target="_blank">@todfodcode</a></li>
                         <li><i class="fa fa-phone"></i><a href="tel:+0800123456">0800 123 456</a></li>
                         <li><i class="fa fa-map-marker"></i> Genesis Building, <br />Sarjapur Signal<br />Belandur 560103<br /> Bangalore<br />INDIA</li>

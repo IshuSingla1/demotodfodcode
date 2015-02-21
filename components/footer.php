@@ -110,7 +110,7 @@
         </div><!--//footer-content-->
         <div class="bottom-bar">
             <div class="container">
-                <small class="copyright">Copyright @ 2015 <a href="http://dpower4.com/" target="_blank">Poweredd By: Dpower4</a></small>                
+                <small class="copyright">Copyright @ 2015 <a href="http://dpower4.com/" target="_blank">Powered By: Dpower4</a></small>                
             </div><!--//container-->
         </div><!--//bottom-bar-->
     </footer><!--//footer-->
