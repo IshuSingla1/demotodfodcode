@@ -37,33 +37,35 @@
 
         <!-- ******Contact Section****** --> 
         <section class="contact-section section section-on-bg">
-            <div class="container">
+            <div class="form-container">
                 <h2 class="title text-center">Contact Us</h2>
-                <p class="intro text-center">We’d love to hear from you. Have any question? Drop us a message. We will get back to you in 24 hours.</p>
-                <form id="contact-form" class="contact-form" method="post" action="">                    
+                <p class="intro text-center">We’d love to hear from you. Have any question? Drop us a message. We will get back to you in 24 hours.</p>                  
                     <div class="row text-center">
                         <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
                             <div class="row">                                                                                           
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
                                     <label class="sr-only" for="cname">Your name</label>
-                                    <input type="text" class="form-control" id="cname" name="name" placeholder="Your name" minlength="2" required>
+                                    <input type="text" class="form-control" id="cname" placeholder="Your name" minlength="2" required>
                                 </div>                    
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
                                     <label class="sr-only" for="cemail">Email address</label>
-                                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Your email address" required>
+                                    <input type="email" class="form-control" id="cemail" onkeyup="nospaces(this)" placeholder="Your email address" required>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                    <label class="sr-only">Subject</label>
+                                    <input type="text" class="form-control" id="csubject" placeholder="Enter subject" required>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12 form-group">
                                     <label class="sr-only" for="cmessage">Your message</label>
-                                    <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="12" required></textarea>
+                                    <textarea class="form-control" id="cmessage" placeholder="Enter your message" rows="12" required></textarea>
                                 </div>
                                  <div class="col-md-12 col-sm-12 col-xs-12 form-group">
-                                    <button type="submit" class="btn btn-block btn-cta btn-cta-primary">Send Message</button>
+                                    <button type="submit" class="btn btn-block btn-cta btn-cta-primary" id='csendmessage' onclick='csendmessage()'>Send Message</button>
                                 </div>                           
                             </div><!--//row-->
                         </div>
                     </div><!--//row-->
                     <div id="form-messages"></div>
-                </form><!--//contact-form-->
             </div><!--//container-->
         </section><!--//contact-section-->
         
@@ -142,7 +144,7 @@
     <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
     <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
     <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
-    
+    <script type="text/javascript" src="assets/js/signupvalidation.js"></script> 
     <!-- contact page specific js starts -->
     <script type="text/javascript" src="assets/plugins/jquery.validate.min.js"></script>       
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 

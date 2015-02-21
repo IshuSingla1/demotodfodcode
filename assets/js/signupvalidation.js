@@ -17,6 +17,7 @@ function replaceAll(find, replace, str) {
 		str = "";
 	return str.replace(new RegExp(find, 'g'), replace);
 }
+
 function validatePath(path) {
 	if (path.match("^[a-zA-Z0-9.]*$")) {
 		return true ;
@@ -25,6 +26,7 @@ function validatePath(path) {
 		return false;
 	}
  }
+
 function signUp() {
 	var firstname = $("#signup_firstname").val() ;
 	var lastname = $("#signup_lastname").val() ;
@@ -388,6 +390,52 @@ function subscribe() {
 					bootstrap_alert(".alert_placeholder", result, 5000,"alert-warning");
 					$("#subscribe").removeAttr('disabled');
 				}
+			}
+		});
+	}
+}
+
+function csendmessage(){
+	$("#csendmessage").attr('disabled','disabled');
+	var name = $("#cname").val() ;
+	var email = $("#cemail").val() ;
+	var subject = $("#csubject").val() ;
+	var message = $("#cmessage").val() ;
+	if(replaceAll('\\s', '',email) == ""){
+		bootstrap_alert(".alert_placeholder", "Email can not be empty", 5000,"alert-success");
+		$("#csendmessage").removeAttr('disabled');
+		return false;
+	}
+	else if (validateEmail(email)==false) {
+        bootstrap_alert(".alert_placeholder", "Enter a valid email id", 5000,"alert-warning");
+        $("#csendmessage").removeAttr('disabled');       
+    }
+    else if(replaceAll('\\s', '',name) == ""){
+		bootstrap_alert(".alert_placeholder", "Name can not be empty", 5000,"alert-success");
+		$("#csendmessage").removeAttr('disabled');
+		return false;
+	}
+	else if(replaceAll('\\s', '',subject) == ""){
+		bootstrap_alert(".alert_placeholder", "Subject can not be empty", 5000,"alert-success");
+		$("#csendmessage").removeAttr('disabled');
+		return false;
+	}
+	else if(replaceAll('\\s', '',message) == ""){
+		bootstrap_alert(".alert_placeholder", "Message can not be empty", 5000,"alert-success");
+		$("#csendmessage").removeAttr('disabled');
+		return false;
+	}
+	else {
+		var dataString = 'name=' + name + '&email=' + email + '&subject=' + subject + '&message=' + message ;
+		$.ajax({
+			type: "POST",
+			url: "ajax/send_message.php",
+			async: false ,
+			data: dataString,
+			cache: false,
+			success: function(result){
+				bootstrap_alert(".alert_placeholder", result, 5000,"alert-warning");
+				$("#csendmessage").removeAttr('disabled');
 			}
 		});
 	}

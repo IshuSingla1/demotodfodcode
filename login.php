@@ -40,7 +40,6 @@
                         <div class="form-box-inner">
                             <h2 class="title text-center">Log in to TodFodCode</h2>                 
                             <div class="row">
-								<div class='alert_placeholder'></div>
                                 <div class="form-container col-md-11 col-sm-12 col-xs-12" id ='furtherInfo'>
                                         <div class="form-group email">
                                             <label class="sr-only" for="login-email">Email or username</label>
