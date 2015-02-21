@@ -38,7 +38,7 @@ session_start() ;
     <div class="wrapper">
         <!-- ******HEADER****** --> 
         <?php require_once 'components/header.php' ?>
-        <br/><br/><br/><br/><h3><center>Your account will be activated soon</center></h3><br/><br/><br/><br/>
+        <br/><br/><br/><br/><h3><center style='color:red;'>Your account will be activated soon</center></h3><br/><br/><br/><br/>
     </div>
     <?php require_once 'components/footer.php' ?>
     <!-- Javascript -->          

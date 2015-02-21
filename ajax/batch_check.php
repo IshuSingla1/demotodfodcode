@@ -9,7 +9,7 @@
 	$sql= "SELECT * FROM available_batches WHERE course_id = '$batch' and batch_time > now()";
 	$data=mysqli_query($db_handle,$sql);
 	if(mysqli_num_rows($data) == 0) {
-		print "<span>No batches Available</span>";
+		print "<span>Batches Available</span>";
 		return true ;
 	}
 	else {
