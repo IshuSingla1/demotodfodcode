@@ -265,14 +265,6 @@
     
     <!-- ******FOOTER****** --> 
     <?php require_once 'components/footer.php' ?>
-        
-        <div class="bottom-bar">
-            <div class="container">
-                <small class="copyright">Copyright @ 2015 <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>                
-            </div><!--//container-->
-        </div><!--//bottom-bar-->
-    </footer><!--//footer-->
-    
     <!-- Video Modal -->
     <div class="modal modal-video" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="modal-dialog">
