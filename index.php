@@ -46,7 +46,7 @@
     <section class="promo section section-on-bg">
         <div class="container text-center">                
             <!--<h2 class="title">Let's develop skills fast<br />and get attention right away!</h2>-->
-	    <h2 class="title">Hello BTM Bangalore<br />We are comming with TodFodCode class on 1 March.</h2>	
+	    <h2 class="title">Hello BTM Bangalore<br />We are comming with TodFodCode class on 15 March.</h2>	
 
             <p class="intro">TodFodCode class are designed to help you <br /> promote your skills effectively to your target dream jobs</p>
 	    

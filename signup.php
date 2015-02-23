@@ -39,7 +39,7 @@
                 <div class="row">
                     <div class="form-box col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">     
                         <div class="form-box-inner">
-                            <h2 class="title text-center">Sign up now</h2>  
+                            <h2 class="title text-center">Register now</h2>  
                             <p class="intro text-center">It only takes 3 minutes!</p>               
                             <div class="row">
                                 <div class="form-container col-md-12 col-sm-12 col-xs-12 " id='furtherInfo'>
@@ -85,7 +85,7 @@
                                             <input id="signup_passwordrepeat" type="password" class="form-control login-password" onkeyup="nospaces(this)" placeholder="Repeat password">
                                         </div></div>
                                     </div>
-                                        <button type="submit" class="btn btn-cta-primary" onclick="signUp();">Sign up</button>
+                                        <button type="submit" class="btn btn-cta-primary" onclick="signUp();">Register</button>
                                         <p class="note">By signing up, you agree to our terms of services and privacy policy.</p>
                                         <p class="lead">Already have an account? <a class="login-link" id="login-link" href="login.php">Log in</a></p>  
                                 </div><!--//form-container-->

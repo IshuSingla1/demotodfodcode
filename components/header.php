@@ -36,8 +36,8 @@
                                 <li><a href="blog-archive.php">Blog Archive</a></li>
                                                    
                             </ul>                            
-                        </li> --><!--//dropdown-->                         
-                        <li class="nav-item"><a href="login.php">Log in</a></li>
+                        </li> --><!--//dropdown                         
+                        <li class="nav-item"><a href="login.php">Log in</a></li>-->
                         <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="signup.php">Register Here </a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
