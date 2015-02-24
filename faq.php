@@ -40,7 +40,7 @@
 			<h2 class="title text-center"></h2>
             <h2 class="title text-center">Get Ready for <span class="highlight">FREE </span>Kick off Demo Week</h2>
             <p class="intro text-center"> In this week long workshop beginners will be trained to be.</p>
-             <div class="text-center"><a class="btn btn-cta btn-cta-primary" href="signup.php">Get Started - It's Free</a></div>
+             <div class="text-center"><a class="btn btn-cta btn-cta-primary" href="register.php">Get Started - It's Free</a></div>
         <?php
         /*
              <div class="price-cols row">

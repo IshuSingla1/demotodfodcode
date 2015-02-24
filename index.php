@@ -50,7 +50,7 @@
 
             <p class="intro">TodFodCode class are designed to help you <br /> promote your skills effectively to your target dream jobs</p>
 	    
-            <p><a class="btn btn-cta btn-cta-primary" href="signup.php">Register now</a></p>   
+            <p><a class="btn btn-cta btn-cta-primary" href="register.php">Register now</a></p>   
             <button type="button" class="play-trigger btn-link " data-toggle="modal" data-target="#modal-video" ><i class="fa fa-youtube-play"></i> Watch the video</button>
         </div><!--//container-->
     </section><!--//promo-->
@@ -223,7 +223,7 @@
                 
                 <div class="feature-lead text-center">
                     <h4 class="title">Registor with us for a free demo class?</h4>
-                    <p><a class="btn btn-cta btn-cta-secondary" href="signup.php">Registor Now</a></p>
+                    <p><a class="btn btn-cta btn-cta-secondary" href="register.php">Registor Now</a></p>
                 </div>
             </div><!--//container-->
         </section><!--//why-->  

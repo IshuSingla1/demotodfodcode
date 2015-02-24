@@ -300,7 +300,7 @@ System Variable Index, Transaction Isolation Level Index</li>
                  </div><!--//step-->
             </div><!--//row-->
             
-            <div class="text-center"><a class="btn btn-cta btn-cta-primary" href="signup.php">Get Started - It's Free</a></div>
+            <div class="text-center"><a class="btn btn-cta btn-cta-primary" href="register.php">Get Started - It's Free</a></div>
             
         </div><!--//container-->        
     </section><!--//steps-->
